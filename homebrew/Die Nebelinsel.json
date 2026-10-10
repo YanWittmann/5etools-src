@@ -1,0 +1,614 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nebelinsel",
+				"abbreviation": "NBI",
+				"full": "Die Nebelinsel",
+				"version": "1.0.0",
+				"color": "3d6b7a",
+				"colorNight": "6fa8bd"
+			}
+		],
+		"edition": "classic",
+		"status": "wip",
+		"dateAdded": 1772668800,
+		"dateLastModified": 1788480000
+	},
+	"adventure": [
+		{
+			"name": "Die Nebelinsel",
+			"id": "Nebelinsel",
+			"source": "Nebelinsel",
+			"group": "homebrew",
+			"published": "2026-09-08",
+			"storyline": "Die Nebelinsel",
+			"level": {
+				"start": 2,
+				"end": 4
+			},
+			"contents": [
+				{
+					"name": "Insel",
+					"headers": [
+						"Der versiegte Bach",
+						"Was passiert ist",
+						"Wie die Spieler hineingeraten",
+						"Der Weg hinauf",
+						"Allgemeine Eigenschaften",
+						"Die Alarmkette",
+						"1. Das Höhlenmaul",
+						"4. Der steile Gang",
+						"5. Die Brücke",
+						"6. Der Bau",
+						"7. Die zwei Becken",
+						"8. Klargs Höhle",
+						"Wie es ausgehen kann",
+						"Was danach anders ist"
+					]
+				}
+			]
+		}
+	],
+	"adventureData": [
+		{
+			"id": "Nebelinsel",
+			"source": "Nebelinsel",
+			"data": [
+				{
+					"type": "section",
+					"name": "Insel",
+					"id": "nbi-insel",
+					"entries": [
+						"Dieses Kapitel sammelt die Orte auf der Insel, an denen die Gruppe etwas zu tun findet, und die Aufträge, die daran hängen.",
+						{
+							"type": "section",
+							"name": "Der versiegte Bach",
+							"id": "nbi-bach",
+							"entries": [
+								"Ein Auftrag im Inseldorf für eine Gruppe auf Stufe 3. Die Höhle liegt am Oberlauf des Bachs, aus dem das Dorf sein Wasser bezieht.",
+								{
+									"type": "entries",
+									"name": "Was passiert ist",
+									"id": "nbi-bach-hintergrund",
+									"entries": [
+										"Eine Goblinbande hat sich in der Höhle eingerichtet, aus der der Bach des Dorfes austritt. Sie hat die zwei Becken im Inneren mit niedrigen Steinmauern aufgestaut, und seitdem kommt unten zu wenig Wasser an. Ihr Anführer Klarg verlangt Gold dafür, den Bach wieder laufen zu lassen.",
+										"Das Dorf hat einmal gezahlt. Der Bach lief zwei Tage, dann stand er wieder. Danach hat das Dorf {@creature Sildar Hallwinter|LMoP|Sildar Hallwinter} hochgeschickt, um zu verhandeln. Er ist nicht zurückgekommen, und Klarg verlangt für ihn extra.",
+										"Ohne Wasser stehen die Färberbottiche, und damit steht das einzige Bargeld des Ortes."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Wie die Spieler hineingeraten",
+									"id": "nbi-bach-aufhaenger",
+									"entries": [
+										"Zuerst Sildars Frau, beiläufig, im Laden oder an der Theke der Grinsenden Krähe. Sie gibt keinen Auftrag, sie ist besorgt und erzählt, dass ihr Mann seit Tagen weg ist. Sie schickt die Gruppe zum Vorsteher weiter.",
+										"Dann der Vorsteher des Dorfes, dem auch die Färberei gehört. Er zahlt, er sagt, dass Zahlen schon einmal nicht funktioniert hat, und er sagt klar, was er will: der Bach soll wieder laufen und Sildar soll zurückkommen. Wie das geschieht, überlässt er der Gruppe.",
+										"Die Spieler bekommen kein Gold mit. Das Dorf hat gelernt, dass es nichts bringt, und kann es sich auch nicht zweimal leisten.",
+										"Der Auftrag ist nicht erfüllt, wenn die Dämme offen sind, sondern wenn niemand mehr da ist, der sie wieder aufbaut."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Der Weg hinauf",
+									"id": "nbi-bach-weg",
+									"entries": [
+										"Die Wegbeschreibung ist, dem Bach aufwärts zu folgen. Mehr braucht es nicht.",
+										"Auf dem letzten Stück liegen zwei Fallen der Goblins, etwa zehn Minuten auseinander. Frag vorher nach der Marschordnung, denn beide treffen den Vordersten, und darum geht es hier.",
+										{
+											"type": "entries",
+											"name": "Die Schlinge",
+											"id": "nbi-bach-schlinge",
+											"entries": [
+												"Wer sucht, entdeckt sie automatisch bei einer passiven Weisheit ({@skill Perception|PHB|Wahrnehmung}) von 12 oder mehr, sonst mit einem gelungenen Wurf auf Weisheit ({@skill Perception|PHB|Wahrnehmung}) gegen SG {@dc 12}. Wer sie auslöst, muss einen Geschicklichkeitsrettungswurf gegen SG {@dc 10} bestehen und hängt bei Misserfolg kopfüber 3 Meter über dem Boden. Er ist {@condition restrained||festgesetzt}, bis das Seil mindestens 1 Hiebschaden abbekommt. Wer nicht vorsichtig heruntergelassen wird, nimmt {@damage 1d6} Wuchtschaden."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Die Grube",
+											"id": "nbi-bach-grube",
+											"entries": [
+												"Sie ist 2 Meter breit und 3 Meter tief, getarnt, und löst aus, wenn jemand sie betritt. Sie wird automatisch entdeckt bei einer passiven Weisheit ({@skill Perception|PHB|Wahrnehmung}) von 15 oder mehr, sonst mit einem gelungenen Wurf auf Weisheit ({@skill Perception|PHB|Wahrnehmung}) gegen SG {@dc 15}. Wer sie nicht bemerkt, muss einen Geschicklichkeitsrettungswurf gegen SG {@dc 10} bestehen oder fällt hinein und nimmt {@damage 1d6} Wuchtschaden. Die Wände sind flach genug, dass man ohne Probe wieder herauskommt."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Allgemeine Eigenschaften",
+									"id": "nbi-bach-features",
+									"entries": [
+										"Die Höhle steigt stetig an. Der Eingang liegt am Fuß eines großen Hügels, und alle Räume und Gänge liegen im Hügel selbst.",
+										{
+											"type": "entries",
+											"name": "Decken",
+											"id": "nbi-bach-f-decken",
+											"entries": [
+												"Die meisten Räume und Gänge haben schräg ansteigende Decken, die von Tropfsteinen bedeckte Gewölbe 6 bis 9 Meter über dem Boden bilden."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Licht",
+											"id": "nbi-bach-f-licht",
+											"entries": [
+												"{@area Bereich 1 (Das Höhlenmaul)|nbi-bach-1|x} liegt draußen. Alles andere ist dunkel, sofern nichts anderes dasteht. Die Vorlesetexte setzen voraus, dass die Gruppe {@sense darkvision||Dunkelsicht} oder eine Lichtquelle hat."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Geröll",
+											"id": "nbi-bach-f-geroell",
+											"entries": [
+												"Flächen aus brüchigem Fels und Kies sind {@quickref difficult terrain||3||schwieriges Gelände}."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Geräusche",
+											"id": "nbi-bach-f-geraeusche",
+											"entries": [
+												"Das Wasser in der Höhle übertönt Geräusche für alle, die nicht genau hinhören. Wer Geräusche aus benachbarten Räumen hören will, würfelt auf Weisheit ({@skill Perception|PHB|Wahrnehmung}) gegen SG {@dc 15}."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Tropfsteine",
+											"id": "nbi-bach-f-tropfsteine",
+											"entries": [
+												"Die aufragenden Steinsäulen geben {@quickref Cover||3||Deckung}."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Der Bach",
+											"id": "nbi-bach-f-bach",
+											"entries": [
+												"Er ist nur knietief, kalt und langsam, man kann überall bequem hindurchwaten."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Die Alarmkette",
+									"id": "nbi-bach-alarm",
+									"entries": [
+										"Sie hängt an einer einzigen Person, dem Goblin auf der Brücke bei {@area Bereich 5 (Die Brücke)|nbi-bach-5|x}, und sie ist die Uhr der Höhle.",
+										{
+											"type": "list",
+											"items": [
+												"Runde eins. Er läuft nach {@area Bereich 7 (Die zwei Becken)|nbi-bach-7|x}.",
+												"Runde zwei. Er reißt dort eine der Steinmauern auf, und das Wasser schießt den Hauptgang hinunter bis zum Höhlenmaul.",
+												"Runde drei. Er erreicht {@area Bereich 6 (Der Bau)|nbi-bach-6|x}, und die Goblins dort stehen auf."
+											]
+										},
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"Der Gang füllt sich mit einem gewaltigen Tosen, als eine Flutwelle von oben herabschießt!"
+											]
+										},
+										"Die Flut geht von {@area Bereich 7 (Die zwei Becken)|nbi-bach-7|x} bis {@area Bereich 1 (Das Höhlenmaul)|nbi-bach-1|x} durch den Hauptgang. Wer auf der Brücke steht oder an den Wänden klettert, ist außer Gefahr. Wer sich im Umkreis von 3 Metern um den Seitengang bei {@area Bereich 4 (Der steile Gang)|nbi-bach-4|x} befindet, darf einen Geschicklichkeitsrettungswurf gegen SG {@dc 10} machen, um sich in Sicherheit zu bringen. Wer das nicht schafft, darf einen Stärkerettungswurf gegen SG {@dc 15} machen, um sich festzuhalten. Wer auch den verpasst, wird {@condition prone||liegend}, bis nach {@area Bereich 1 (Das Höhlenmaul)|nbi-bach-1|x} hinuntergespült und nimmt unterwegs {@damage 1d6} Wuchtschaden.",
+										"Das ist ein Rückschlag und kein Todesurteil. Die Gruppe steht danach klatschnass wieder am Eingang und weiß jetzt, wie es hier läuft.",
+										"Ein zweiter Schwall aus dem zweiten Becken ist möglich, aber niemand löst ihn aus, solange die Bande nicht jemanden dafür abstellt."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Was die Goblins wissen",
+									"id": "nbi-bach-wissen",
+									"entries": [
+										"Wer einen Goblin gefangen nimmt oder bezaubert, bekommt aus ihm heraus:",
+										{
+											"type": "list",
+											"items": [
+												"Es sind fünf Goblins hier, dazu Yeemik, und dazu Klarg mit seinem Wolf.",
+												"Klarg ist der Anführer und hortet alles in seiner eigenen Höhle, weil er niemandem traut.",
+												"Klarg hat den Bach aufstauen lassen und will Gold dafür, ihn wieder zu öffnen.",
+												"Der Mann aus dem Dorf liegt gefesselt oben im Bau.",
+												"Yeemik hält Klarg für einen Narren, sagt das aber nur, wenn er sich sicher fühlt."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "1. Das Höhlenmaul",
+									"id": "nbi-bach-1",
+									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"Ihr folgt dem Bach aufwärts und stoßt auf eine große Höhle in einem Hang. Ein flacher Bach fließt aus dem Höhlenmaul, das von dichtem Dornengestrüpp verdeckt ist. Rechts des Bachs führt ein schmaler trockener Pfad in die Höhle hinein."
+											]
+										},
+										"Hier steht niemand Wache. Die Bande hält das nicht für nötig, weil in Jahren niemand heraufgekommen ist."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "4. Der steile Gang",
+									"id": "nbi-bach-4",
+									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"Der Hauptgang vom Höhlenmaul steigt steil an, der Bach stürzt und spritzt an seiner Westseite hinab. Im Schatten führt ein Seitengang nach Westen über die andere Seite des Bachs."
+											]
+										},
+										"Wer mit Licht oder {@sense darkvision||Dunkelsicht} weiter hinaufschaut, sieht die Brücke bei {@area Bereich 5 (Die Brücke)|nbi-bach-5|x}. Dann:",
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"In den Schatten der Decke im Norden erkennt ihr undeutlich die Umrisse einer wackligen Brücke aus Holz und Seil, die über den Gang vor euch führt. Ein weiterer Gang kreuzt diesen, 6 Meter über dem Boden."
+											]
+										},
+										"Wer die Brücke sieht, kann auch den Goblin darauf bemerken. Das ist ein Wurf auf Weisheit ({@skill Perception|PHB|Wahrnehmung}) gegen dessen Wurf auf Geschicklichkeit ({@skill Stealth|PHB|Heimlichkeit}). Der Goblin bemerkt die Gruppe, wenn sie Licht trägt oder sich nicht anschleicht. Was er dann tut, steht unter Die Alarmkette.",
+										{
+											"type": "entries",
+											"name": "Der westliche Gang",
+											"id": "nbi-bach-4-west",
+											"entries": [
+												"Er ist voller Geröll und hat steile Abbrüche, also {@quickref difficult terrain||3||schwieriges Gelände}. Der Vorsprung zwischen den beiden Abbrüchen ist brüchig. Mehr als 50 Kilo lösen die ganze Masse und schicken sie nach Osten hinunter. Wer darauf steht, muss einen Geschicklichkeitsrettungswurf gegen SG {@dc 10} machen und nimmt bei Misserfolg {@damage 2d6} Wuchtschaden und ist {@condition prone||liegend}, bei Erfolg den halben Schaden. Dieser Gang umgeht die Brücke vollständig."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "5. Die Brücke",
+									"id": "nbi-bach-5",
+									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"Der Bachgang steigt jenseits einer weiteren Reihe unebener Stufen weiter an und biegt dabei nach Osten. Aus einer größeren Höhle irgendwo vor euch ist ein Wasserfall zu hören."
+											]
+										},
+										"Wer die Brücke noch nicht gesehen hat, sieht sie jetzt:",
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"Eine wacklige Brücke spannt sich über den Gang und verbindet zwei Tunnel, 6 Meter über dem Bach."
+											]
+										},
+										"Auf ihr steht ein einzelner {@creature goblin|MM|Goblin}, versteckt, faul und unaufmerksam. Er kämpft nicht, solange er weglaufen kann. Bemerkt er die Gruppe, gibt er Alarm und wirft danach Speere von oben. Trägt niemand in der Gruppe Licht, darf jeder auf Geschicklichkeit ({@skill Stealth|PHB|Heimlichkeit}) gegen seine passive Weisheit ({@skill Perception|PHB|Wahrnehmung}) würfeln, um an ihm vorbeizukommen.",
+										"Von hier gabelt sich der Weg, und das ist die eigentliche Entscheidung dieser Höhle. Am Wasser weiter aufwärts kommt man nach {@area Bereich 7 (Die zwei Becken)|nbi-bach-7|x}, also zu den Dämmen. Über die Brücke nach Westen kommt man nach {@area Bereich 6 (Der Bau)|nbi-bach-6|x}, also zu Sildar.",
+										{
+											"type": "entries",
+											"name": "Die Brücke",
+											"id": "nbi-bach-5-bruecke",
+											"entries": [
+												"Sie hängt 6 Meter über dem Bach. Man kann vom unteren Gang an den Wänden zu ihr hochklettern, das ist ein Wurf auf Stärke ({@skill Athletics|PHB|Athletik}) gegen SG {@dc 15}, weil der Fels rau, aber von der Gischt nass ist.",
+												"Die Brücke hat Rüstungsklasse 5 und 10 Trefferpunkte. Fällt sie auf 0 Trefferpunkte, stürzt sie ein. Wer dann darauf steht, muss einen Geschicklichkeitsrettungswurf gegen SG {@dc 10} bestehen, fällt bei Misserfolg, nimmt {@damage 2d6} Wuchtschaden und ist {@condition prone||liegend}. Wer ihn schafft, hängt an der Brücke und muss sich hochziehen."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "6. Der Bau",
+									"id": "nbi-bach-6",
+									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"Diese große Höhle ist durch eine 3 Meter hohe Geländestufe in zwei Hälften geteilt. Eine steile natürliche Treppe führt vom unteren Teil auf den oberen Absatz. Die Luft ist trüb vom Rauch eines Kochfeuers und beißend vom Geruch schlecht gegerbter Häute und ungewaschener Goblins."
+											]
+										},
+										"Hier wohnen zwei {@creature goblin|MM|Goblins} und {@creature goblin boss|MM|Yeemik}, der offiziell der Zweite der ganzen Anlage ist. Die beiden Goblins halten sich unten am Kochfeuer im nördlichen Teil auf, Yeemik ruht oben im südlichen Teil.",
+										"{@creature Sildar Hallwinter|LMoP|Sildar Hallwinter} liegt gefesselt auf dem oberen Absatz. Sie haben ihn geschlagen, er ist schwach und hat noch 1 Trefferpunkt.",
+										{
+											"type": "entries",
+											"name": "Sildar ausspielen",
+											"id": "nbi-bach-6-sildar",
+											"entries": [
+												"Er weiß nichts von der Hauptquest und hält die Goblins für ein Ärgernis, nicht für ein Rätsel.",
+												"Er kann sagen, wie viele es sind, wo Klarg schläft, dass sie bei Alarm das Wasser loslassen, und dass Klarg hinten in seiner Höhle ein Loch hat, das keiner von ihnen benutzt.",
+												"Er kann nicht kämpfen. Ihn hinauszubringen verändert, wie sich die Gruppe zurückzieht, und das ist sein eigentlicher Beitrag. Danach ist er jemand im Dorf, der ihnen etwas schuldet."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Entwicklungen",
+											"id": "nbi-bach-6-entwicklungen",
+											"entries": [
+												"Yeemik will Klargs Platz und Klargs Hort. Selbst herausfordern kann er ihn nicht, weil er verlieren würde, also braucht er Fremde. Er findet, dass Klarg mit seiner Gier ein gutes Geschäft ruiniert. Er hätte das Gold genommen und den Bach laufen lassen, dann käme jedes Jahr wieder welches.",
+												"Sieht er, dass die Gruppe die Oberhand gewinnt, packt er Sildar, zerrt ihn an die Kante und ruft, Waffenstillstand oder der Mann stirbt. Lässt sich die Gruppe darauf ein, verlangt er Klargs Kopf und den Hort und verspricht dafür Sildar. Sildar warnt sie benommen, ihm nicht zu trauen.",
+												"Lehnt die Gruppe ab, stößt er Sildar sofort über die Kante. Das sind {@damage 1d6} Wuchtschaden und bringt ihn auf 0 Trefferpunkte."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Schatz",
+											"id": "nbi-bach-6-schatz",
+											"entries": [
+												"Yeemik trägt einen Beutel mit drei goldenen Zähnen zu je 1 GM und 15 SM."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "7. Die zwei Becken",
+									"id": "nbi-bach-7",
+									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"Diese Höhle ist zur Hälfte von zwei großen Wasserbecken ausgefüllt. Ein schmaler Wasserfall hoch in der Ostwand speist sie, und am Westende der Kammer laufen sie ab und bilden den Bach, der unten aus dem Höhlenmaul fließt. Niedrige Mauern aus Feldsteinen dienen als Dämme und halten das Wasser. Nach Süden steht ein breiter Ausgang offen, nach Westen führen zwei kleinere Gänge. Das Rauschen des Wasserfalls hallt durch die Höhle und macht es schwer, etwas zu hören."
+											]
+										},
+										"Hier steht niemand. Das Rauschen ist so laut, dass man von hier aus nichts von {@area Bereich 8 (Klargs Höhle)|nbi-bach-8|x} hört und umgekehrt.",
+										{
+											"type": "entries",
+											"name": "Die Steindämme",
+											"id": "nbi-bach-7-daemme",
+											"entries": [
+												"Sie sind einfach gebaut und ohne Werkzeug einzureißen, das dauert ein paar Minuten. Wer sie einreißt, nimmt der Bande ihre Waffe weg, bevor sie sie benutzen kann, und das Wasser läuft unten am selben Tag wieder. Solange oben noch jemand lebt, der sie wieder aufbaut, ist damit nichts gewonnen."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "8. Klargs Höhle",
+									"id": "nbi-bach-8",
+									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"Säcke und Kisten mit erbeuteten Vorräten sind am Südende dieser großen Höhle aufgestapelt. Im Westen fällt der Boden zu einer schmalen Öffnung ab, die in die Dunkelheit hinabführt. Eine größere Öffnung führt nach Norden eine Reihe natürlicher Steinstufen hinab, von wo das Tosen fallenden Wassers herüberdringt. In der Mitte der Höhle glimmen die Kohlen eines großen Feuers."
+											]
+										},
+										"Hier sind {@creature bugbear chief|MM|Klarg|scaled=2}, sein {@creature dire wolf|MM|Schattenwolf} und zwei {@creature goblin|MM|Goblins}.",
+										"Klarg hält sich für einen großen Feldherrn am Anfang seiner Eroberungslaufbahn und redet von sich in der dritten Person. Er ist nicht ganz bei Verstand, schikaniert seine eigenen Leute, und sie hassen ihn dafür. Er hat nicht begriffen, dass die Erpressung vorbei ist. Steht die Gruppe vor ihm, macht er ihr einen Preis.",
+										{
+											"type": "entries",
+											"name": "Die Feuerstelle",
+											"id": "nbi-bach-8-feuer",
+											"entries": [
+												"Wer die Glut betritt, nimmt 1 Feuerschaden. Wer darin {@condition prone||liegend} wird, nimmt {@damage 1d6} Feuerschaden. Jede Art höchstens einmal pro Runde."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Der Gang nach Westen",
+											"id": "nbi-bach-8-west",
+											"entries": [
+												"Die schmale Öffnung im Vorlesetext führt in die alten Stollen und damit in das System unter dem Berg. Die Goblins benutzen sie nicht und mögen sie nicht."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Die Vorräte",
+											"id": "nbi-bach-8-vorraete",
+											"entries": [
+												"Die Stapel geben {@quickref Cover||3||Deckung}. Es ist gewöhnliches Diebesgut aus Monaten, Kisten, Säcke und ungeordnetes Zeug von überall her. Zwischen den Vorräten steht eine unverschlossene Truhe. Wer die Stapel durchsucht, findet sie."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Entwicklungen",
+											"id": "nbi-bach-8-entwicklungen",
+											"entries": [
+												"Ist Klarg gewarnt, verstecken er und der Wolf sich hinter den Tropfsteinen und die Goblins hinter den Vorräten und warten auf die Tür. Ist er nicht gewarnt, hat die Gruppe eine gute Chance, ihn zu überraschen.",
+												"Stirbt sein Wolf, versucht Klarg durch den westlichen Gang zu fliehen, und zeigt der Gruppe damit, dass es dort weitergeht."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Schatz",
+											"id": "nbi-bach-8-schatz",
+											"entries": [
+												"In der Truhe liegen 600 KM, 110 SM, zwei {@item potion of healing|DMG|Heiltränke} und eine Jadefigur eines Frosches mit winzigen goldenen Kugeln als Augen, 40 GM wert. Dazu das Gold des Dorfes, das die Goblins nicht ausgeben konnten."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Wie es ausgehen kann",
+									"id": "nbi-bach-ausgang",
+									"entries": [
+										"Alle töten. Der Bach läuft und bleibt.",
+										"Die Bande vertreiben. Dasselbe Ergebnis mit weniger Leichen.",
+										"Mit Yeemik handeln. Er will Klarg tot und den Hort. Bekommt er beides, verlangt er aus Gewohnheit trotzdem noch einmal Gold, so wie Klarg es getan hätte. Davon lässt er sich mit einem Wurf auf Charisma ({@skill Persuasion|PHB|Überzeugen}) oder Charisma ({@skill Intimidation|PHB|Einschüchtern}) abbringen, denn er will keinen Krieg, er will das Geschäft. Am Ende steht eine Abmachung, nach der das Dorf jedes Jahr einen kleinen Betrag zahlt und der Bach dafür läuft. Daran hält er sich, weil er im Gegensatz zu Klarg rechnen kann.",
+										"Das Gold des Dorfes liegt in Klargs Truhe. Damit sind Beute und Belohnung derselbe Haufen, und das Dorf kann nicht zweimal zahlen. Was die Gruppe zurückgibt, entscheidet sie selbst, und der Vorsteher wird es merken."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Was danach anders ist",
+									"id": "nbi-bach-danach",
+									"entries": [
+										"Der Bach läuft wieder, und das Dorf merkt es innerhalb eines Tages.",
+										"Der Gang hinter {@area Bereich 8 (Klargs Höhle)|nbi-bach-8|x} führt in die alten Stollen und damit unter den Berg.",
+										"Die Bande, falls noch jemand von ihr übrig ist, schlägt zurück."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Offene Punkte",
+									"id": "nbi-bach-offen",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Wer der Vorsteher ist und wie er heißt.",
+												"Wie Sildars Frau heißt.",
+												"Wie viel Gold das Dorf damals gezahlt hat.",
+												"Dialoge und Sprüche für Klarg, Yeemik und die Goblins."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Der neue Piratenanführer",
+			"shortName": "Neuer Anführer",
+			"isNamedCreature": true,
+			"source": "Nebelinsel",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tiefling"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@spell mage armor|phb|Magierrüstung}"
+					]
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 17,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"int": "+6",
+				"wis": "+4"
+			},
+			"skill": {
+				"arcana": "+6",
+				"deception": "+5",
+				"perception": "+4"
+			},
+			"senses": [
+				"Dunkelsicht 60 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"fire"
+			],
+			"languages": [
+				"Gemeinsprache",
+				"Infernalisch",
+				"zwei weitere Sprachen"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Zauberwirken",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Zarech ist ein Zauberwirker der 9. Stufe. Sein Zauberattribut ist Intelligenz (Rettungswurf-SG {@dc 14}, {@hit 6} auf Zauberangriffe). Er hat die folgenden Magierzauber vorbereitet:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt|phb|Feuerpfeil}",
+								"{@spell light|phb|Blendendes Licht}",
+								"{@spell mage hand|phb|Magierhand}",
+								"{@spell shocking grasp|phb|Schockgriff}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell disguise self|phb|Verkleidung}",
+								"{@spell mage armor|phb|Magierrüstung}",
+								"{@spell magic missile|phb|Magisches Geschoss}",
+								"{@spell shield|phb|Schild}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person|phb|Person festhalten}",
+								"{@spell invisibility|phb|Unsichtbarkeit}",
+								"{@spell misty step|phb|Nebelschritt}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell|phb|Gegenzauber}",
+								"{@spell fear|phb|Furcht}",
+								"{@spell fly|phb|Fliegen}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment|phb|Verbannung}",
+								"{@spell greater invisibility|phb|Größere Unsichtbarkeit}"
+							]
+						},
+						"5": {
+							"slots": 1,
+							"spells": [
+								"{@spell dominate person|phb|Beherrschung}"
+							]
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Höllische Abstammung",
+					"entries": [
+						"Zarech ist ein Tiefling. Daher stammen seine Dunkelsicht und seine Widerstandskraft gegen Feuerschaden."
+					]
+				},
+				{
+					"name": "Falsches Gesicht",
+					"entries": [
+						"Zarech trägt einen {@item hat of disguise|dmg|Hut der Verkleidung} und erscheint darin als Mensch. Die Illusion hält keiner Berührung stand. Wer sie mustert, deckt sie mit einem gelungenen Wurf auf Intelligenz ({@skill Investigation|phb|Nachforschen}) gegen SG 14 auf. Fällt Zarech auf 0 Trefferpunkte oder endet die Wirkung des Huts, fällt die Verkleidung augenblicklich und vor aller Augen."
+					]
+				},
+				{
+					"name": "Trotz allem (1/Kampf)",
+					"entries": [
+						"Misslingt Zarech ein Rettungswurf, darf er ihn stattdessen als gelungen betrachten."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Krummsäbel",
+					"entries": [
+						"{@atk mw} {@hit 5} auf Treffer, Reichweite 5 ft., ein Ziel. {@h}5 ({@damage 1d6 + 2}) Hiebschaden."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"urban"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			]
+		}
+	]
+}

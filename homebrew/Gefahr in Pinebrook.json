@@ -1,0 +1,1882 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Pinebrook",
+				"abbreviation": "GiP",
+				"full": "Gefahr in Pinebrook",
+				"version": "1.0.0",
+				"color": "8fa9c4",
+				"colorNight": "b6ccdf",
+				"authors": [
+					"Shawn Merwin",
+					"Wizards RPG Team"
+				],
+				"convertedBy": [
+					"Deutsche Fanübersetzung"
+				],
+				"dateReleased": "2023-11-20"
+			}
+		],
+		"edition": "classic",
+		"status": "ready",
+		"dateAdded": 1789516800,
+		"dateLastModified": 1789516800
+	},
+	"adventure": [
+		{
+			"name": "Gefahr in Pinebrook",
+			"id": "Pinebrook",
+			"source": "Pinebrook",
+			"group": "homebrew",
+			"cover": {
+				"type": "internal",
+				"path": "covers/PiP.webp"
+			},
+			"published": "2023-11-20",
+			"author": "Wizards RPG Team",
+			"storyline": "Family Friendly",
+			"level": {
+				"start": 1,
+				"end": 1
+			},
+			"contents": [
+				{
+					"name": "Gefahr in Pinebrook",
+					"headers": [
+						"Einleitung",
+						"Einführung ins Abenteuer",
+						"Das Abenteuer beginnt",
+						"Begegnung 1: Ein gar nicht so furchtbarer Drache",
+						"Begegnung 2: Lebende Eiszapfen",
+						"Begegnung 3: Ein gefährlicher Hort",
+						"Begegnung 4: Dracheneier und Aufsteigendes Silber",
+						"Ausklang",
+						"Anhang A"
+					]
+				},
+				{
+					"name": "Mitwirkende"
+				}
+			]
+		}
+	],
+	"adventureData": [
+		{
+			"id": "Pinebrook",
+			"source": "Pinebrook",
+			"data": [
+				{
+					"type": "section",
+					"name": "Einleitung",
+					"page": 2,
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "adventure/PiP/001-0000.webp"
+							},
+							"width": 2248,
+							"height": 2889
+						},
+						"Willkommen zum Abenteuer deines Lebens!",
+						"Gefahr in Pinebrook ist ein Einsteigerabenteuer für Dungeons & Dragons (kurz D&D), das für jüngere Spieler entworfen wurde, aber Spaß für jedes Alter bietet!",
+						"Gefahr in Pinebrook enthält vier spielfertige Charaktere, mit denen ihr eure erste Partie D&D spielen könnt. Die vereinfachten Regeln erlauben es einer Spielleitung (im Englischen Dungeon Master oder kurz DM genannt), das Spiel zu leiten, ohne dafür weitere Regelwerke oder Regelkenntnisse zu brauchen.",
+						"Empfohlen sind eine Spielleitung und vier Spieler, aber es wird auch erklärt, wie ihr mit weniger Spielern spielt. Bei mehr als vier Spielern kann jeder der spielfertigen Charaktere von mehreren Personen genutzt werden.",
+						{
+							"type": "section",
+							"name": "Die Grundlagen",
+							"page": 2,
+							"entries": [
+								"Dungeons & Dragons ist ein Spiel, in dem alle gemeinsam eine Geschichte erzählen und Rollen spielen. Jeder Spieler übernimmt die Rolle eines Abenteurers: eines Helden mit Können, Wissen und manchmal auch Magie, der Herausforderungen meistert und Großes vollbringt!",
+								"Eine Person am Tisch übernimmt die Rolle der Spielleitung (SL). Die Spielleitung erzählt die Geschichte, hütet alle Geheimnisse und hat bei Regelfragen das letzte Wort. Dieses Dokument enthält alles, was du für den Einstieg als Spielleitung brauchst."
+							],
+							"id": "001"
+						},
+						{
+							"type": "section",
+							"name": "Das Abenteuer",
+							"page": 2,
+							"entries": [
+								"Charaktere in Dungeons & Dragons bestehen im Lauf ihres Lebens Abenteuer: heldenhafte Reisen und todesmutige Taten, aus denen Legenden werden, oder eben Schauergeschichten!",
+								"Gefahr in Pinebrook enthält Hinweise, Vorschläge und Regelerklärungen, die neuen Spielleitungen beim Leiten helfen. Wenn du die Spielleitung bist, kannst du das Abenteuer genau so leiten, wie es hier steht, oder eigene Ideen einbauen. Deine Fantasie und die Fantasie der anderen am Tisch machen jede Partie D&D einzigartig.",
+								"Der Abschnitt „Ein Abenteuer leiten\" hilft dir bei der Entscheidung, ob du die Spielleitung übernehmen möchtest. Wenn du lieber einen Charakter spielen willst, lies weder „Einführung ins Abenteuer\" noch irgendetwas danach. Sonst verdirbst du dir einen Teil des Spielspaßes."
+							],
+							"id": "002"
+						},
+						{
+							"type": "section",
+							"name": "Die Regeln",
+							"page": 2,
+							"entries": [
+								"Dungeons & Dragons gehört zu einer besonderen Art von Spielen, den Rollenspielen. In D&D helfen die Regeln dabei zu bestimmen, ob die Charaktere an ihren Herausforderungen scheitern oder sie meistern. Außerdem helfen sie der ganzen Gruppe, gemeinsam eine spannende und unvergessliche Geschichte zu erzählen.",
+								"Die Regeln werden im Abschnitt „Die Regeln anwenden\" erklärt. Der Abschnitt „Ein Abenteuer leiten\" gibt der Spielleitung Tipps, wie sie die anderen durch einen Spielabend führt.",
+								"Auch der Abenteuertext selbst erklärt unterwegs immer wieder Regeln und Spielabläufe."
+							],
+							"id": "003"
+						},
+						{
+							"type": "section",
+							"name": "Was ihr braucht",
+							"page": 2,
+							"entries": [
+								"Zum Spielen braucht ihr dieses Heft und Würfel: mindestens einen 20-seitigen Würfel ({@dice d20}) und einen 6-seitigen Würfel ({@dice d6}). Es geht schneller, wenn jeder eigene Würfel hat, aber ihr könnt sie euch auch teilen! Falls ihr diese Würfel nicht habt, findet ihr im Internet digitale Würfel.",
+								"Jeder Spieler sollte außerdem etwas zum Schreiben haben, um Änderungen auf dem Charakterbogen festzuhalten. Bleistift und Papier reichen völlig.",
+								{
+									"type": "entries",
+									"name": "Charakterbögen",
+									"page": 2,
+									"entries": [
+										"Zu diesem Heft gehören vier Charakterbögen und eine Übersicht, die einige Regeln und Charakteroptionen genauer erklärt. Gib jedem Spieler einen Charakterbogen. Bei mehr als vier Spielern könnt ihr auf einem zweiten Ausdruck Namen und Beschreibung ändern, damit es eigenständige Charaktere mit ähnlichen Fähigkeiten und ähnlicher Ausrüstung gibt.",
+										"Die verlinkten Charakterbögen liegen nur auf Englisch vor. Die englischen Bezeichnungen darauf werden im Text jeweils übersetzt, wenn sie zum ersten Mal auftauchen.",
+										{
+											"type": "list",
+											"columns": 3,
+											"items": [
+												"{@5etoolsImg Evandon Haart|pdf/PiP/Evandon_Haart.pdf}",
+												"{@5etoolsImg Gallantine Birchenbough|pdf/PiP/Gallantine_Birchenbough.pdf}",
+												"{@5etoolsImg Noorah Eldenfield|pdf/PiP/Noorah_Eldenfield.pdf}",
+												"{@5etoolsImg Shalefire Stoutheart|pdf/PiP/Shalefire_Stoutheart.pdf}"
+											]
+										}
+									],
+									"id": "005"
+								}
+							],
+							"id": "004"
+						},
+						{
+							"type": "section",
+							"name": "Die Spielerfahrung",
+							"page": 2,
+							"entries": [
+								"Gefahr in Pinebrook ist auf 60 bis 90 Minuten Spielzeit ausgelegt. Pausen sind völlig in Ordnung, und ihr könnt das Abenteuer auch auf mehrere kurze Sitzungen verteilen.",
+								"Die Spielzeit lässt sich nach Belieben verlängern. Wenn ihr euch Zeit nehmt, eure Charaktere auszuspielen und miteinander zu reden, macht das D&D noch schöner.",
+								"Bevor es losgeht, sollte die Spielleitung dieses Dokument einmal ganz lesen, um Regeln und Abenteuer besser zu kennen.",
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/PiP/0000.webp"
+									},
+									"maxWidth": 300,
+									"width": 1063,
+									"height": 1135
+								}
+							],
+							"id": "006"
+						},
+						{
+							"type": "section",
+							"name": "Die Regeln anwenden",
+							"page": 3,
+							"entries": [
+								"Gefahr in Pinebrook verwendet eine vereinfachte Fassung der Regeln von Dungeons & Dragons, um neuen Spielleitungen und neuen Spielern das Spiel beizubringen. Im Abenteuertext stehen außerdem Tipps, die für beide nützlich sind.",
+								{
+									"type": "entries",
+									"name": "Was Charaktere tun",
+									"page": 3,
+									"entries": [
+										"Alles, was ein Charakter tut, kann gelingen oder misslingen. Triffst du das Monster mit deiner Waffe? Hältst du auf dem schmalen Felsvorsprung das Gleichgewicht, während du den Berg hinaufsteigst? Überzeugst du den Drachen, dich nicht zu fressen?",
+										"Die Antwort auf solche Fragen findet ihr im Spiel mit einem Wurf auf den {@dice d20}!"
+									],
+									"id": "008"
+								},
+								{
+									"type": "entries",
+									"name": "d20-Würfe",
+									"page": 3,
+									"entries": [
+										"Der 20-seitige Würfel ({@dice d20}) ist der meistgenutzte Würfel in D&D. Er wird immer dann geworfen, wenn ein Charakter oder eine Kreatur etwas Wichtiges versucht.",
+										"Was ein Charakter versuchen kann, steht auf dem Charakterbogen unter „Attacks\" (Angriffe) und „Skills\" (Fertigkeiten). Daneben stehen Zahlenangaben wie „{@hit 5} to hit\" (also +5 auf den Angriffswurf). Diese Zahl addierst du zu deinem Würfelergebnis, wenn dein Charakter diesen Angriff oder diese Fertigkeit einsetzt.",
+										"Auf dem Charakterbogen von Shalefire Stoutheart steht zum Beispiel unter „Attacks\" der Eintrag „Handaxe\" (Handaxt), und daneben „{@hit 6} to hit\". Will Shalefire ein Monster mit der Handaxt angreifen, würfelt der Spieler einen {@dice d20}. Zeigt der Würfel eine 10, addiert der Spieler 6 dazu und kommt auf einen Angriffswert von 16.",
+										"Woher weiß der Spieler nun, ob der Wurf gelingt oder misslingt? Lies weiter!"
+									],
+									"id": "009"
+								},
+								{
+									"type": "entries",
+									"name": "Rüstungsklasse",
+									"page": 3,
+									"entries": [
+										"Die Zahl, die ein Charakter mit einem Angriffswurf erreichen oder übertreffen muss, heißt Rüstungsklasse (auf dem Charakterbogen „Armor Class\", kurz AC). Je höher die Rüstungsklasse einer Kreatur ist, desto schwerer ist sie zu treffen. Im Beispiel oben würde Shalefires Angriffswurf mit der Handaxt jede Kreatur mit einer Rüstungsklasse von 16 oder weniger treffen."
+									],
+									"id": "00a"
+								},
+								{
+									"type": "entries",
+									"name": "Schaden",
+									"page": 3,
+									"entries": [
+										"Trifft ein Angriffswurf, verursacht er Schaden. Der Schadenswurf steht auf dem Charakterbogen direkt hinter dem Angriff. Shalefires Handaxt macht „{@damage 1d6 + 4} damage\", der Spieler würfelt also einen 6-seitigen Würfel ({@dice d6}) und addiert 4 zum Ergebnis."
+									],
+									"id": "00b"
+								},
+								{
+									"type": "entries",
+									"name": "Schwierigkeitsgrad",
+									"page": 3,
+									"entries": [
+										"Der Schwierigkeitsgrad (englisch Difficulty Class, im Text durchgehend als DC abgekürzt) ist die Zahl, die ein Charakter erreichen oder übertreffen muss, um bei einer Handlung erfolgreich zu sein, die kein Angriff ist. Dazu gehören auch Proben auf Fertigkeiten.",
+										"Will Shalefire zum Beispiel einen schweren Felsbrocken vor einem Höhleneingang wegschieben, braucht es dafür die Fertigkeit {@skill Athletics|phb|Athletik}. Unter „Skills\" steht auf Shalefires Charakterbogen „Athletics +6\", der Spieler würfelt also einen 20-seitigen Würfel und addiert 6 zum Ergebnis. Liegt der Schwierigkeitsgrad für den Felsbrocken bei 12, muss der Würfel eine 6 oder höher zeigen, damit Shalefire ihn wegschiebt.",
+										"Die Schwierigkeitsgrade für Handlungen, die die Charaktere versuchen können, stehen im Abenteuertext. Grundsätzlich gilt: Ein Schwierigkeitsgrad von 10 ({@dc 10}) ist leicht, einer von 15 ist knifflig. Die meisten Proben in diesem Abenteuer haben {@dc 10}. Die Spielleitung darf den Schwierigkeitsgrad anpassen, wenn die Umstände eine Handlung leichter oder schwerer machen, und eigene Schwierigkeitsgrade festlegen, wenn die Charaktere etwas versuchen, das im Abenteuer nicht vorkommt."
+									],
+									"id": "00c"
+								},
+								{
+									"type": "entries",
+									"name": "Vorteil und Nachteil",
+									"page": 3,
+									"entries": [
+										"Manchmal machen die Ereignisse im Abenteuer es einem Charakter leichter. Manchmal steht alles gegen die Helden. In D&D wird das durch „Vorteil\" und „Nachteil\" abgebildet.",
+										{
+											"type": "inset",
+											"name": "SL-Tipp",
+											"page": 3,
+											"entries": [
+												"Vorteil und Nachteil sind starke Werkzeuge. Sie machen Würfe auf den {@dice d20} deutlich wahrscheinlicher oder unwahrscheinlicher, setze sie also mit Bedacht ein. Am besten eignen sie sich als Belohnung für kluge Einfälle der Spieler oder um Glück und Pech in der Geschichte abzubilden. In den vollständigen Regeln von D&D geben bestimmte Regeln automatisch Vorteil oder Nachteil. In diesem Abenteuer entscheidet die Spielleitung, wann ein Wurf mit Vorteil oder Nachteil gemacht wird. Hat ein Charakter auf denselben Wurf sowohl Vorteil als auch Nachteil, heben sich beide auf, und es wird ganz normal gewürfelt."
+											],
+											"id": "00e"
+										},
+										{
+											"type": "entries",
+											"name": "Vorteil",
+											"page": 3,
+											"entries": [
+												"Greift Shalefire ein Monster mit der Handaxt an, während es von einem anderen Charakter abgelenkt wird, sieht das Monster den Angriff nicht kommen. Die Spielleitung entscheidet vielleicht, dass es abgelenkt leichter zu treffen ist, und lässt Shalefire den Angriffswurf mit Vorteil machen.",
+												"Vorteil bedeutet: Statt den {@dice d20} einmal zu werfen, wirft Shalefires Spieler ihn zweimal und nimmt das höhere Ergebnis. Dazu kommt wie immer der übliche Bonus (+6 für Shalefires Handaxt), und daraus ergibt sich der endgültige Angriffswert."
+											],
+											"id": "00f"
+										},
+										{
+											"type": "entries",
+											"name": "Nachteil",
+											"page": 3,
+											"entries": [
+												"Nachteil funktioniert genau umgekehrt. Wird eine Handlung durch die Umstände schwerer, wird der Wurf dafür mit Nachteil gemacht. Klettert Shalefire etwa an einem Seil eine Klippe hinauf und ein Monster oben rüttelt am Seil, macht Shalefire die Probe auf {@skill Athletics|phb|Athletik} zum Klettern mit Nachteil, weil das Klettern jetzt schwerer ist.",
+												"Nachteil bedeutet: Statt den {@dice d20} einmal für die Probe zu werfen, wirft Shalefires Spieler ihn zweimal und nimmt das niedrigere Ergebnis. Dazu kommt wie immer der übliche Bonus (+6 für Shalefires {@skill Athletics|phb|Athletik}), und daraus ergibt sich das endgültige Ergebnis."
+											],
+											"id": "010"
+										}
+									],
+									"id": "00d"
+								},
+								{
+									"type": "entries",
+									"name": "Trefferpunkte",
+									"page": 3,
+									"entries": [
+										"Jede Kreatur in D&D hat eine bestimmte Anzahl an Trefferpunkten (auf dem Charakterbogen „Hit Points\"). Diese Zahl zeigt, wie viel Schaden eine Kreatur einstecken kann, bevor sie {@condition unconscious|phb|bewusstlos} wird oder besiegt ist. Wird ein Charakter oder eine Kreatur durch einen Angriffswurf oder eine Gefahr im Spiel verletzt, wird der verursachte Schaden von den Trefferpunkten abgezogen.",
+										"Sinken die Trefferpunkte einer Kreatur auf 0, ist sie besiegt. Ihr entscheidet gemeinsam, ob das bedeutet, dass die Kreatur tot oder {@condition unconscious|phb|bewusstlos} ist oder ob sie davonläuft.",
+										"Sinken die Trefferpunkte eines Charakters auf 0, ist er {@condition unconscious|phb|bewusstlos}. In diesem Abenteuer bleibt ein Charakter mit 0 Trefferpunkten so lange {@condition unconscious|phb|bewusstlos}, bis er durch Heilung Trefferpunkte zurückerhält oder bis die Begegnung endet, denn dann erhält er automatisch 1 Trefferpunkt zurück. Wie man Trefferpunkte zurückerhält, steht später im Abenteuer."
+									],
+									"id": "011"
+								}
+							],
+							"id": "007"
+						},
+						{
+							"type": "section",
+							"name": "Ein Abenteuer leiten",
+							"page": 4,
+							"entries": [
+								"Die Spielleitung darf ihre Fantasie spielen lassen, während sie den anderen das Abenteuer präsentiert. Sie bringt Spannung ins Spiel, indem sie die Situationen beschreibt und den Spielern hilft, sich in der Handlung zurechtzufinden.",
+								{
+									"type": "entries",
+									"name": "Begegnungen präsentieren",
+									"page": 4,
+									"entries": [
+										"Dieses Abenteuer ist in „Begegnungen\" unterteilt, die wie Szenen in einem Film oder einer Serie funktionieren. Jede Begegnung hat ihre eigenen Herausforderungen. Sobald die Spieler sie bewältigt haben, geht es weiter zur nächsten Szene. Wie das Spiel abläuft, steht im folgenden Abschnitt."
+									],
+									"id": "013"
+								},
+								{
+									"type": "entries",
+									"name": "Der Spielfluss",
+									"page": 4,
+									"entries": [
+										"Eine Partie D&D beginnt mit einem Gespräch zwischen der Spielleitung und den übrigen Spielern. Die Spielleitung schildert die Situation, in der sich die Charaktere befinden. Die Spieler dürfen Fragen dazu stellen, und die Spielleitung beantwortet sie, um das Geschehen genauer zu erklären.",
+										"Dann stellt die Spielleitung die wichtigste Frage, die sie zur Verfügung hat:",
+										"{@i „Was tut ihr?\"}",
+										"Jetzt sollten die Spieler erklären, was ihre Charaktere tun wollen. (Ist das Gewünschte unmöglich, sagt die Spielleitung das und bittet um eine andere Handlung. Ein Charakter kann zum Beispiel nicht durch eine Wand gehen, wenn er keine besondere Fähigkeit oder Magie dafür hat.)",
+										"Ist die Handlung möglich und ganz leicht, gelingt sie automatisch. Eine unverschlossene Tür zu öffnen oder einen leichten Gegenstand hochzuheben verlangt keine Heldentat, also ist auch kein Wurf auf den {@dice d20} nötig.",
+										"Liegt die Handlung irgendwo zwischen leicht und unmöglich, kann der Versuch gelingen oder scheitern. Genau dann verlangt die Spielleitung einen Wurf auf den {@dice d20}. Siehe dazu den Abschnitt „d20-Würfe\" weiter oben in diesem Dokument.",
+										"Der Wurf auf den {@dice d20} und die Boni darauf entscheiden, ob die Handlung gelingt oder scheitert. Und was bedeutet Gelingen oder Scheitern für ein Abenteuer? An dieser Stelle erzählt ihr die Geschichte gemeinsam weiter!"
+									],
+									"id": "014"
+								},
+								{
+									"type": "entries",
+									"name": "Erfolge und Misserfolge erzählen",
+									"page": 4,
+									"entries": [
+										"Wenn ein Wurf auf den {@dice d20} gelingt oder scheitert, können die Spielleitung und die Spieler dieses Ergebnis in die laufende Geschichte einbauen. Wie sieht es aus, wenn ein Monster besiegt wird? Was sagt oder tut Shalefire, wenn sich der schwere Felsbrocken vor der Höhle keinen Zentimeter bewegt? Aus solchen Momenten entstehen die schönsten Erzähl- und Schauspielszenen.",
+										"Denk aber daran, dass es auch zur Aufgabe der Spielleitung gehört, die Geschichte in Bewegung zu halten. Wenn es langweilig wird, jeden einzelnen Angriffswurf eines langen Kampfes auszuschmücken, sag einfach, wie viel Schaden der Angriff verursacht, und komm zum nächsten spannenden Moment."
+									],
+									"id": "015"
+								},
+								{
+									"type": "entries",
+									"name": "Tipps für Spielleitungen",
+									"page": 4,
+									"entries": [
+										"Diese Tipps helfen dabei, eine großartige Partie zu leiten:",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Regel 0",
+													"entries": [
+														"Regel 0 von D&D ist einfach: Habt Spaß. Es ist völlig in Ordnung, Regeln zu ändern, solange sich alle einig sind und das Spiel dadurch für alle besser wird."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Sei auf ihrer Seite",
+													"entries": [
+														"Die Spieler und die Spielleitung sind ein Team. Die Spielleitung spielt nicht gegen die Charaktere. Sie gewinnt, wenn alle Spaß haben und die Geschichte spannend und unvergesslich wird."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Sag „Ja, und …\" oder „Nein, aber …\"",
+													"entry": "Lass die Spieler so oft wie möglich Erfolg haben und lass sie die Geschichte mitgestalten. Wollen sie etwas Unerwartetes versuchen, sag möglichst „ja\" und baue ihre Idee in die Geschichte ein. Musst du zu einer Idee „nein\" sagen, schlage Möglichkeiten vor, mit denen sie etwas Ähnliches tun können."
+												},
+												{
+													"type": "item",
+													"name": "Nutze deine Fantasie",
+													"entries": [
+														"Gefahr in Pinebrook ist nur das Gerüst für eure Partie. Ändere oder erfinde alles, was das Spiel schöner macht. Der Text kann unmöglich alles abdecken, was die Spieler ausprobieren wollen. Wie riecht ein Monster? Das entscheidest du, oder du fragst die Spieler, was sie denken!"
+													]
+												},
+												{
+													"type": "item",
+													"name": "NSCs sind deine Stimme",
+													"entry": "Die Spieler bestimmen, was ihre Charaktere tun, die Spielleitung spielt alle anderen Figuren. Nichtspielercharaktere (kurz NSCs) sind ein großartiges Werkzeug, um den Charakteren das Spiel und die Geschichte zu erklären und Informationen ganz nebenbei einfließen zu lassen."
+												},
+												{
+													"type": "item",
+													"name": "Lass andere Lösungen zu",
+													"entries": [
+														"D&D ist ein Fantasyspiel, in dem Helden Hindernisse mit Verstand, Können und Entschlossenheit überwinden. Manchmal werden diese Hindernisse mit Waffen und Zaubern aus dem Weg geräumt. Charaktere können aber auch auf ganz andere Weise Erfolg haben. Mit Monstern zu reden, sie hereinzulegen oder zu verscheuchen oder einen Kampf durch geschicktes Schleichen ganz zu vermeiden, kann genauso viel Spaß machen. Solche Möglichkeiten sind ideal, wenn jemand am Tisch Gewalt lieber vermeiden möchte."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Hör deinen Spielern zu",
+													"entries": [
+														"Ermutige deine Spieler, dir zu sagen, wenn sie etwas im Spiel belastet, ob offen am Tisch oder unter vier Augen. Reagiere dann angemessen. Du kannst zum Beispiel über ein belastendes Thema hinweggehen, indem du die Szene schnell zu einem Ende erzählst und zügig zum nächsten Teil der Geschichte übergehst."
+													]
+												}
+											]
+										},
+										{
+											"type": "image",
+											"href": {
+												"type": "internal",
+												"path": "adventure/PiP/0002.webp"
+											},
+											"width": 1680,
+											"height": 1396
+										}
+									],
+									"id": "016"
+								}
+							],
+							"id": "012"
+						},
+						{
+							"type": "section",
+							"name": "Einführung ins Abenteuer",
+							"page": 5,
+							"entries": [
+								"{@b Wenn du als Spieler mitspielst, hör hier auf zu lesen! Der Rest dieses Dokuments ist nur für die Spielleitung bestimmt.}",
+								"In Gefahr in Pinebrook finden die Charaktere einen frisch geschlüpften Drachen und müssen das Kleine zum Hort seiner Mutter zurückbringen. Der Hort wird allerdings gerade von Feinden angegriffen. Als Spielleitung präsentierst du die Herausforderungen, denen sich die Charaktere auf dem Heimweg mit dem Drachenbaby stellen.",
+								{
+									"type": "insetReadaloud",
+									"page": 5,
+									"entries": [
+										"Text in einem Kasten wie diesem ist zum Vorlesen gedacht. Du kannst ihn Wort für Wort vorlesen oder mit eigenen Worten wiedergeben."
+									],
+									"id": "018"
+								},
+								"Zeig deinen Spielern zu Beginn des Abenteuers die Charakterbögen. Lies ihnen dann den folgenden Text vor:",
+								{
+									"type": "insetReadaloud",
+									"page": 5,
+									"entries": [
+										"Wir spielen jetzt eine kurze Partie Dungeons & Dragons. Auf diesen Charakterbögen stehen alle Angaben zu euren Charakteren. Jeder von euch spielt einen davon."
+									],
+									"id": "019"
+								},
+								"Du kannst die Spieler ihre Charaktere selbst aussuchen lassen. Wenn ihr wenig Zeit habt, teile sie lieber selbst zu.",
+								"Sobald jeder Spieler einen Charakterbogen hat, lies weiter:",
+								{
+									"type": "insetReadaloud",
+									"page": 5,
+									"entries": [
+										"Schreibt euren Namen in das Feld „Player Name\" (Spielername). Euer Charakter hat bereits einen Namen, den ihr behalten oder ändern könnt. Unter dem Namen ist Platz für einen Spitznamen und für die Pronomen eures Charakters.",
+										"Auf jedem Charakterbogen gibt es einen Bereich „Description\" (Beschreibung) für Aussehen, Persönlichkeit und Auftreten eures Charakters. Wählt dort etwas aus oder denkt euch selbst etwas aus. Ihr könnt euren Charakter so spielen, wie es zu dieser Beschreibung passt."
+									],
+									"id": "01a"
+								},
+								"Biete den Spielern deine Hilfe an, wenn sie diese Teile des Charakterbogens ausfüllen. Beantworte ihre Fragen so gut du kannst, manche Fragen klären sich aber am besten erst während des Spiels. Sag den Spielern, dass sie unterwegs alle nötigen Informationen bekommen. Vielleicht musst du zwischen den einzelnen Punkten der folgenden Übersicht kurz innehalten, um Fragen zu beantworten:",
+								{
+									"type": "insetReadaloud",
+									"page": 5,
+									"entries": [
+										"Schauen wir uns noch ein paar Teile des Charakterbogens an. Es gibt einiges, das ihr vor dem Spiel wissen solltet.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Volk und Klasse",
+													"entries": [
+														"Jeder Charakter in D&D gehört zu einem Volk („Race\") und einer Klasse („Class\"). Beide bestimmen mit, was ein Charakter besonders gut kann. Etliche weitere Angaben auf dem Charakterbogen ergeben sich aus Volk und Klasse."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Rüstungsklasse und Trefferpunkte",
+													"entries": [
+														"Jeder Charakter hat eine Rüstungsklasse („Armor Class\", kurz AC) und Trefferpunkte („Hit Points\"). Die Rüstungsklasse sagt, wie schwer ein Charakter mit einem Angriffswurf zu treffen ist. Je höher die AC, desto schwerer ist er zu treffen. Die Trefferpunkte sagen, wie viel Schaden ein Charakter einstecken kann. Erleidet er Schaden, wird dieser von seinen Trefferpunkten abgezogen. Sinken sie auf 0, ist der Charakter {@condition unconscious|phb|bewusstlos}. Wie ihr Trefferpunkte zurückerhaltet, erfahrt ihr später im Spiel."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Angriffe",
+													"entries": [
+														"Jeder Charakter kann mit Nahkampf- oder Fernkampfwaffen angreifen oder mit Zaubern, die im Nahkampf oder auf Entfernung wirken. „Melee\" (Nahkampf) heißt, dass der Angriff eingesetzt wird, wenn ein Charakter direkt neben einem Monster steht. „Ranged\" (Fernkampf) heißt, dass der Angriff aus der Entfernung eingesetzt wird. Die Zahl hinter einem Angriff auf dem Charakterbogen wird zu einem Wurf auf den {@dice d20} (einen 20-seitigen Würfel) addiert, wenn der Charakter angreift. Je höher die Zahl, desto wahrscheinlicher gelingt der Angriff."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Fertigkeiten",
+													"entries": [
+														"Jeder Charakter kann die Fertigkeiten benutzen, die auf seinem Charakterbogen unter „Skills\" stehen. Die Zahl hinter einer Fertigkeit wird zu einem Wurf auf den {@dice d20} addiert. Je höher die Zahl, desto besser beherrscht der Charakter diese Fertigkeit. Will ein Charakter eine Fertigkeit benutzen, die nicht auf seinem Bogen steht, wirft der Spieler den 20-seitigen Würfel, addiert aber nichts dazu."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Ausrüstung",
+													"entries": [
+														"Jeder Charakter hat Ausrüstung dabei, mit der er Herausforderungen im Abenteuer meistern kann. Unterwegs findet er vielleicht noch mehr davon."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Besondere Fähigkeit",
+													"entries": [
+														"Jeder Charakter hat eine besondere Fähigkeit. Mit ihr kann er im Abenteuer etwas tun, das die anderen Charaktere nicht können. Du entscheidest selbst, wann dein Charakter seine besondere Fähigkeit einsetzt, aber sie lässt sich nur begrenzt oft oder nur unter bestimmten Umständen benutzen."
+													]
+												}
+											]
+										}
+									],
+									"id": "01b"
+								},
+								"Erkläre anhand des folgenden Beispiels, wie Würfe auf den {@dice d20} funktionieren:",
+								{
+									"type": "insetReadaloud",
+									"page": 5,
+									"entries": [
+										"Die Charakterin Noorah Eldenfield hat einen Angriff mit dem Kurzbogen, bei dem „{@hit 5} to hit\" steht. Greift Noorah mit dem Kurzbogen an, würfelt ihre Spielerin einen {@dice d20} und addiert 5 zum Würfelergebnis. Ich sage euch dann, ob der Angriff das Monster trifft. Wenn ja, gilt der zweite Teil des Eintrags: „Damage {@dice 1d6 + 3}\". Die Spielerin würfelt also einen 6-seitigen Würfel und addiert 3, um den Schaden des Angriffs zu bestimmen."
+									],
+									"id": "01c"
+								},
+								"Auf dem „Player Reference Sheet\" (Spielerübersicht) werden einige Begriffe vom Charakterbogen ebenfalls genauer erklärt.",
+								"Und jetzt kann es losgehen!",
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/PiP/0004.webp"
+									},
+									"width": 1320,
+									"height": 1236
+								}
+							],
+							"id": "017"
+						},
+						{
+							"type": "section",
+							"name": "Das Abenteuer beginnt",
+							"page": 6,
+							"entries": [
+								"{@b Geschätzte Spielzeit für diese Begegnung: 10 Minuten}",
+								"Wenn du und deine Spieler bereit seid, lies Folgendes vor:",
+								{
+									"type": "insetReadaloud",
+									"page": 6,
+									"entries": [
+										"Ihr stammt aus dem Dorf Pinebrook, einer kleinen Siedlung am Fuß eines Gebirges, das Rückgrat der Welt genannt wird. Neben ihrer täglichen Arbeit patrouillieren die Bewohner von Pinebrook abwechselnd durch den Wald und die Hügel rund um das Dorf, damit die Gegend sicher bleibt für die Holzfäller im Wald und die Bergleute, die im Gebirge nach Eisenerz graben. Heute seid ihr mit ein paar Freunden an der Reihe, den Wald zu erkunden.",
+										"Manchmal streifen gefährliche Kreaturen durch die Wälder, doch zuletzt war es ruhig. In der Gegend erzählt man sich, dass sich vor Kurzem ein freundlicher Silberdrache im nächstgelegenen Berg eingerichtet hat. Die gefährlicheren Bewohner der Berge, vor allem die gefürchteten Eistrolle, hat seit zwei Monaten niemand mehr gesehen. Gestern allerdings hat eine Patrouille große, frostbedeckte Trollspuren im Wald entdeckt. Sind die Gerüchte über den freundlichen Silberdrachen also doch nur Gerüchte? Eure Patrouille führt heute Emmajeen Kole an, der Hauptmann der Dorfwache. Hauptmann Kole blickt nervös den Waldweg entlang und nickt euch dann zu.",
+										"„Ich war noch nie mit einem von euch auf Patrouille. Erzählt mir ein wenig von euch.\""
+									],
+									"id": "01e"
+								},
+								"Bitte jeden Spieler, den Namen oder Spitznamen seines Charakters zu nennen und ihn zu beschreiben. Sie dürfen erzählen, was sie bei sich tragen und die anderen sehen können, welche Angriffe und Fertigkeiten sie beherrschen und wie ihr Charakter so ist. Der Charakterbogen hilft ihnen dabei.",
+								{
+									"type": "entries",
+									"name": "Rollenspiel",
+									"page": 6,
+									"entries": [
+										"In D&D dürfen die Spieler ihre Charaktere darstellen. Manche verstellen dafür die Stimme oder bewegen sich so, wie ihr Charakter es täte. Wem das unangenehm ist, der kann seinen Charakter stattdessen beschreiben, so wie in einem Buch oder einer Geschichte.",
+										"Es ist völlig in Ordnung, wenn manche Spieler zögern oder sich mit dem Rollenspiel schwertun. Es ist wichtiger, dass sich alle wohlfühlen, als dass alle reden. Damit das Rollenspiel leichter fällt, kannst du ihnen ein oder zwei der folgenden Fragen stellen:",
+										{
+											"type": "list",
+											"items": [
+												"Wie heißt dein Charakter, und hat er einen Spitznamen?",
+												"Wie sieht dein Charakter aus?",
+												"Wie klingt dein Charakter, wenn er spricht?",
+												"Was kann dein Charakter besonders gut?",
+												"Was trägt dein Charakter auf der Patrouille bei sich?",
+												"Wie fühlt sich dein Charakter dabei, ausgerechnet an dem Tag auf Patrouille zu gehen, nachdem hier Spuren von Eistrollen gefunden wurden?"
+											]
+										},
+										"Sobald sich alle Charaktere vorgestellt haben, ergreift Hauptmann Kole wieder das Wort:",
+										{
+											"type": "insetReadaloud",
+											"page": 6,
+											"entries": [
+												"„Nun gut, dieser Wald will patrouilliert werden, also an die Arbeit. Ich bin bereit zu kämpfen, wenn es sein muss!\""
+											],
+											"id": "020"
+										},
+										"Lass die Spieler für ihre Charaktere antworten, wenn sie möchten. Beschreibe dann, wie Hauptmann Kole vorsichtig in den Wald geht und den Charakteren bedeutet, ihr zu folgen.",
+										"Weiter geht es mit Begegnung 1: Ein gar nicht so furchtbarer Drache."
+									],
+									"id": "01f"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/PiP/001-0049.webp"
+									},
+									"width": 1675,
+									"height": 2991
+								}
+							],
+							"id": "01d"
+						},
+						{
+							"type": "section",
+							"name": "Begegnung 1: Ein gar nicht so furchtbarer Drache",
+							"page": 7,
+							"entries": [
+								"{@b Geschätzte Spielzeit für diese Begegnung: 10 Minuten}",
+								"Sobald die Charaktere Hauptmann Kole in den Wald gefolgt sind, lies Folgendes vor:",
+								{
+									"type": "insetReadaloud",
+									"page": 7,
+									"entries": [
+										"Ihr folgt dem Waldweg eine Viertelstunde lang, dann bleibt Hauptmann Kole stehen und hebt die Hand. „Hört ihr das?\", fragt sie.",
+										"Ihr macht jetzt eine Probe auf {@skill Perception|phb|Wahrnehmung}, um zu hören, was Hauptmann Kole hört. „{@skill Perception|phb|Perception}\" steht auf eurem Charakterbogen unter „Skills\". Jeder von euch würfelt einen 20-seitigen Würfel und addiert die Zahl, die neben dieser Fertigkeit steht. Dann sagt ihr mir das Ergebnis eurer Probe."
+									],
+									"id": "022"
+								}
+							],
+							"id": "021"
+						},
+						{
+							"type": "section",
+							"name": "Proben auf Wahrnehmung",
+							"page": 7,
+							"entries": [
+								"Für eine Probe auf {@skill Perception|phb|Wahrnehmung} würfelt ein Spieler einen {@dice d20} und addiert den Wert, der auf seinem Charakterbogen neben dieser Fertigkeit steht. Der Schwierigkeitsgrad für diese Probe ist 10 (geschrieben als {@dc 10}). Erreicht jemand 10 oder mehr, erkläre ihm, dass er ein Geräusch aus dem dornigen Unterholz hört.",
+								"Gelingt keinem Charakter die Probe, zeigt Hauptmann Kole in die Richtung, aus der das Geräusch kommt. Lies dann weiter:",
+								{
+									"type": "insetReadaloud",
+									"page": 7,
+									"entries": [
+										"Das Unterholz am Wegesrand raschelt, und eine Kreatur von der Größe eines großen Hundes kriecht zwischen Dornen und Blättern hervor. Auf den ersten Blick sieht sie aus wie eine seltsame Echse aus Metall. Schaut ihr genauer hin, erkennt ihr einen kleinen Drachen mit blaugrauen Schuppen und einer langen, spitzen Zunge.",
+										"Während der Drache auf euch zukriecht, versucht er matt, sich Reste silberner Eierschale von Kopf und Gesicht zu streifen. Dabei gibt er ein zischendes Wimmern von sich."
+									],
+									"id": "024"
+								},
+								"Frag die Spieler, was sie tun wollen. Lass sie ihre Charaktere ausspielen, während sie reagieren, reden, rätseln und die Sache genauer untersuchen. Solange die Charaktere dem kleinen Silberdrachen nichts tun wollen, starrt Hauptmann Kole nur verwirrt und weiß nicht weiter.",
+								{
+									"type": "entries",
+									"name": "Rollenspiel und Informationen",
+									"page": 7,
+									"entries": [
+										"Die Spieler werden während des Abenteuers vermutlich viele Fragen stellen. Damit sie die richtigen Informationen bekommen, kannst du deine Antworten in drei Gruppen einteilen:",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Was die Charaktere wissen",
+													"entries": [
+														"Fragen die Spieler nach etwas, das ihre Charaktere wissen würden, kannst du es ihnen einfach sagen. Die Charaktere wissen zum Beispiel immer, was sie sehen, hören und riechen."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Was die Charaktere wissen könnten",
+													"entries": [
+														"Manches erfahren die Spieler über die Fertigkeiten ihrer Charaktere. Shalefire oder Gallantine könnten zum Beispiel fragen, ob das ein kleiner Silberdrache ist. Als Spielleitung kannst du dafür eine Probe mit {@dc 10} und einer passenden Fertigkeit verlangen. Shalefire könnte {@skill Animal Handling|phb|Mit Tieren umgehen} nutzen, Gallantine {@skill Nature|phb|Naturkunde}. Gelingt die Probe ({@dice d20} plus Fertigkeitswert ergibt 10 oder mehr), kannst du sagen: „Ja! Das ist ein frisch geschlüpfter Silberdrache.\" Du kannst ergänzen, dass solche Drachen Fleisch und auch andere Nahrung fressen."
+													]
+												},
+												{
+													"type": "item",
+													"name": "Was die Charaktere noch nicht wissen",
+													"entries": [
+														"Eine Frage wie „Wo kommt dieses Drachenbaby her?\" können die Charaktere nicht beantworten, jedenfalls noch nicht. In so einem Fall sagst du einfach: „Das wisst ihr nicht, aber ihr könnt es herausfinden.\""
+													]
+												}
+											]
+										},
+										"Misslingen den Charakteren die Proben oder stellen sie nicht die richtigen Fragen, kann Hauptmann Kole die Informationen liefern. Sie bestätigt, dass es sich um einen kleinen Silberdrachen handelt, und sie lässt nicht zu, dass die Charaktere ihm etwas antun.",
+										"Wenn die Spieler alle Fragen gestellt und ihre Reaktionen auf den Drachen ausgespielt haben, lies Folgendes vor:",
+										{
+											"type": "insetReadaloud",
+											"page": 7,
+											"entries": [
+												"Hauptmann Kole zieht ein Buch aus ihrem Rucksack: Das praktisch vollständige Handbuch der Drachen. Sie blättert bis zur Mitte. „Es stimmt! Das ist ein frisch geschlüpfter Silberdrache. Dann liegt der Hort der Mutter also wirklich im nächsten Berg hinter dem Wald, genau wie die Gerüchte sagen. Wir müssen das Kleine schnell zu seiner Mutter bringen. Ich frage mich, wie es so weit von zu Hause weggekommen ist.\"",
+												"Hauptmann Kole zögert und seufzt dann. „Ich muss nach Pinebrook zurück und berichten, was wir gefunden haben. Ihr bringt das Kleine zum Hort und zu seiner Mutter. Beschützt diesen Drachen mit eurem Leben. Die Waldwege führen direkt bis an den Berg. Gebt dem armen Ding einen Namen und besorgt ihm etwas zu fressen. Es sieht schwach aus.\"",
+												"Sie reißt eine Seite aus dem Buch und hält sie euch hin. „Hier. Das könnte nützlich sein. Laut dem Buch sind Silberdrachen friedlich und mögen Menschen meistens gern.\""
+											],
+											"id": "026"
+										},
+										"Die Seite, die Hauptmann Kole den Charakteren gibt, findest du in Anhang A. Sie enthält Übersetzungen aus dem Drakonischen, der Sprache der Drachen, in die Gemeinsprache, die die Charaktere beherrschen. Die Charaktere müssen sie jetzt noch nicht lesen, aber im weiteren Abenteuer wird sie nützlich."
+									],
+									"id": "025"
+								},
+								{
+									"type": "entries",
+									"name": "Füttern und Umsorgen",
+									"page": 7,
+									"entries": [
+										"Nachdem Hauptmann Kole gegangen ist, sollten die Charaktere Futter für den Drachen auftreiben. Weise die Spieler ruhig darauf hin, dass alle Charaktere unter „Other Equipment\" (sonstige Ausrüstung) Rationen auf ihrem Bogen stehen haben. Alternativ kann Shalefire eine Probe auf {@skill Survival|phb|Überlebenskunst} oder Gallantine eine Probe auf {@skill Nature|phb|Naturkunde} gegen {@dc 10} machen, um Beeren und Nüsse zu finden, die der Drache frisst. Erinnere die Spieler bei Bedarf daran, wie Würfe auf den {@dice d20} funktionieren.",
+										"Sobald der Drache gefressen hat, sagt er ein einziges Wort: „Nytha.\" Die Charaktere erfahren erst später, was es bedeutet: Das Kleine hat sie gerade auf Drakonisch „Mama\" genannt.",
+										"Nach der Mahlzeit lebt der Drache auf und folgt den Charakteren. Sie können ihn auch tragen, die Aufmerksamkeit genießt er sehr. Und Bauchkraulen liebt er über alles!"
+									],
+									"id": "027"
+								},
+								{
+									"type": "entries",
+									"name": "So geht es weiter",
+									"page": 7,
+									"entries": [
+										"Der Berg, auf den Hauptmann Kole gezeigt hat, ragt über die Baumwipfel.",
+										"Wenn die Spieler bereit sind, geht es weiter mit Begegnung 2: Lebende Eiszapfen."
+									],
+									"id": "028"
+								}
+							],
+							"id": "023"
+						},
+						{
+							"type": "section",
+							"name": "Begegnung 2: Lebende Eiszapfen",
+							"page": 8,
+							"entries": [
+								"{@b Geschätzte Spielzeit für diese Begegnung: 10 Minuten}",
+								"Erzähle den Spielern, dass es im Wald ruhig bleibt, während die Charaktere ihn durchqueren. Sie finden die Wege zum Berg ohne Mühe, und keine Waldkreatur stört sie.",
+								"Wenn die Charaktere den Fuß des Berges erreichen, lies Folgendes vor:",
+								{
+									"type": "insetReadaloud",
+									"page": 8,
+									"entries": [
+										"Ihr folgt sorgfältig den richtigen Waldwegen und erreicht den Fuß des Berges. Nicht weit vor euch seht ihr einen Höhleneingang. Wenn ein Drache sich in diesem Berg einen Hort gebaut hat, dann führt hier der Weg hinein."
+									],
+									"id": "02a"
+								},
+								"Die Höhle ist der einzige sichtbare Zugang zum Hort des Drachen. Sobald das Drachenbaby in die Nähe des Eingangs kommt, schnuppert es und zappelt vorwärts, denn es erkennt den Geruch seines Zuhauses.",
+								"Wenn die Charaktere näher an die Höhle herantreten, lies Folgendes vor:",
+								{
+									"type": "insetReadaloud",
+									"page": 8,
+									"entries": [
+										"Der Höhleneingang ist breit und voller Sonnenlicht, doch dahinter wird es rasch dunkel, und ihr könnt nicht erkennen, ob sich etwas darin befindet. Zerbrochene Eiszapfen und Flecken aus Frost und Schnee bedecken den Boden am Eingang.",
+										"Plötzlich beginnen die Eissplitter zu zucken. Eiszapfen und Schnee fügen sich zu kleinen Eiskreaturen mit bösen, spitzen Klauen zusammen. Eine von ihnen kreischt: „Eindringlinge! Zerfetzt sie!\", und dann greifen sie an!"
+									],
+									"id": "02b"
+								},
+								"Im Höhleneingang hausen fünf lebende Eiszapfen. Spielt ihr dieses Abenteuer mit weniger als vier Charakteren, entferne pro fehlendem Spieler einen lebenden Eiszapfen, aber niemals weniger als zwei. Mit den folgenden Angaben führst du die lebenden Eiszapfen im Kampf.",
+								{
+									"type": "inset",
+									"name": "Lebender Eiszapfen",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Rüstungsklasse",
+													"entry": "10",
+													"nameDot": false
+												},
+												{
+													"type": "item",
+													"name": "Trefferpunkte",
+													"entry": "7",
+													"nameDot": false
+												}
+											]
+										},
+										{
+											"type": "variantInner",
+											"name": "Angriff",
+											"entries": [
+												{
+													"type": "entries",
+													"name": "Klauen",
+													"entries": [
+														"{@atk mw} {@hit 2} auf den Angriff. {@h}{@damage 1d6} Hiebschaden."
+													],
+													"id": "02e"
+												}
+											],
+											"id": "02d"
+										}
+									],
+									"id": "02c"
+								},
+								"Lies Folgendes vor, um die Spieler auf ihren ersten Kampf vorzubereiten:",
+								{
+									"type": "insetReadaloud",
+									"page": 8,
+									"entries": [
+										"Macht euch bereit für euren ersten Kampf! Schaut auf den Bereich „Attacks\" auf eurem Charakterbogen. Wollt ihr einen Nahkampfangriff machen, muss euer Charakter zu den Eiskreaturen hingehen. Wollt ihr einen Fernkampfangriff machen, könnt ihr zurückbleiben.",
+										"Würfelt einen 20-seitigen Würfel und addiert den Wert, der neben dem gewählten Angriff steht. Sagt mir das Ergebnis, und ich sage euch, ob der Angriff trifft. Bei einem Treffer würfelt ihr einen 6-seitigen Würfel, addiert den Schadensbonus des Angriffs und nennt mir das Ergebnis."
+									],
+									"id": "02f"
+								},
+								{
+									"type": "entries",
+									"name": "Reihum handeln",
+									"page": 8,
+									"entries": [
+										"Beschreibe zuerst, wie bösartig die Monster sind und welche Gefahr von ihnen ausgeht. Betone, wie scharf ihre Klauen sind. Versuche, den Spielern das Gefühl zu geben, dass ihre Charaktere um ihr Leben kämpfen. Ein oder zwei gelungene Angriffe der Monster helfen dabei sehr. Die Charaktere handeln zuerst, beginnend mit dem Spieler zu deiner Linken und dann im Uhrzeigersinn weiter. Frag jeden Spieler, was er tun will, und ermuntere alle, ihre Handlungen zu beschreiben, damit sich alle die Szene vorstellen können.",
+										"Wenn alle Spieler gehandelt haben, greifen die noch nicht besiegten lebenden Eiszapfen an. Jedes Monster, das noch Trefferpunkte hat, geht zu einem anderen Charakter und greift mit seinen Klauen an.",
+										"Würfle einen {@dice d20} und addiere den Angriffsbonus (+2). Erreicht oder übertrifft das Ergebnis die Rüstungsklasse des angegriffenen Charakters, trifft der Angriff. Würfle {@dice 1d6} und sag dem Spieler, dass er diesen Schaden von seinen Trefferpunkten abziehen soll. Verfehlt der Angriff, passiert nichts. Beschreibe den Angriff in beiden Fällen. Reißen die Klauen eine Wunde auf, oder kratzen sie wirkungslos über die Rüstung?",
+										"Handelt so lange reihum, bis alle lebenden Eiszapfen besiegt sind. Du kannst beschreiben, wie sie zersplittern oder schmelzen, wenn sie besiegt werden. Vielleicht fliehen sie aber auch. Mach den Spielern in diesem Fall klar, dass die lebenden Eiszapfen nicht verfolgt und eingeholt werden können, indem sie etwa in schmale Felsspalten fließen, in die die Charaktere ihnen nicht folgen können.",
+										{
+											"type": "inset",
+											"name": "SL-Tipp",
+											"page": 8,
+											"entries": [
+												"Ein spannender Kampf in D&D ist wie eine aufregende Achterbahnfahrt: Die Spieler wollen sich erschrecken und mitfiebern, aber sie wollen nicht, dass die Aufregung im sicheren Tod ihrer Charaktere endet. Hier kommt deine erzählerische und rechnerische Zauberkunst ins Spiel.",
+												"Du kannst eingreifen, wenn die Charaktere den Kampf zu verlieren drohen. Gib ihnen zum Beispiel Vorteil auf ihre Angriffswürfe oder den Monstern Nachteil auf ihre. Einzelheiten zu Vorteil und Nachteil stehen weiter oben im Abschnitt „Die Regeln anwenden\". Solche Änderungen der Wahrscheinlichkeiten verbessern die Aussichten der Charaktere spürbar.",
+												"Statt ein Monster denselben Charakter angreifen zu lassen, bis dieser {@condition unconscious|phb|bewusstlos} umfällt, lass es jede Runde einen anderen Charakter angreifen. So bleiben mehr Charaktere länger im Kampf.",
+												"Du kannst sogar erzählen, dass das Drachenbaby dazwischengeht und ein Monster erledigt, aber greife nicht zu oft zu solcher Hilfe von außen."
+											],
+											"id": "031"
+										}
+									],
+									"id": "030"
+								},
+								{
+									"type": "entries",
+									"name": "Nachdem die Charaktere gewonnen haben",
+									"page": 8,
+									"entries": [
+										"Sobald die lebenden Eiszapfen besiegt sind, frag die Spieler, was sie als Nächstes tun wollen. Wenn sie nicht weiterwissen, schlage vor, die Umgebung zu durchsuchen.",
+										{
+											"type": "entries",
+											"name": "Die Umgebung durchsuchen",
+											"page": 8,
+											"entries": [
+												"Manche Monster tragen Schätze bei sich, deshalb lohnt es sich fast immer, die Monster und ihre Umgebung zu durchsuchen. Solange ein Schatz nicht versteckt ist, finden die Charaktere ihn ohne Probe.",
+												"Gleich hinter dem Höhleneingang finden die Charaktere einen abgewetzten Lederrucksack. Darin stecken: ein Päckchen Dörrfleisch, fünf Fackeln, Feuerstein und Stahl zum Entzünden von Feuer und ein Beutel mit 12 Goldmünzen."
+											],
+											"id": "033"
+										},
+										{
+											"type": "entries",
+											"name": "Den Schatz aufteilen",
+											"page": 9,
+											"entries": [
+												"Lass die Spieler den Schatz aufteilen, wie sie möchten. Fangen sie an zu streiten, wer was bekommt, beruhige sie mit dem Drachen. Das Kleine fängt an zu weinen, wenn die Charaktere streiten!"
+											],
+											"id": "034"
+										},
+										{
+											"type": "entries",
+											"name": "Verletzte Charaktere heilen",
+											"page": 9,
+											"entries": [
+												"Haben Charaktere durch die lebenden Eiszapfen Schaden erlitten, heilen sie ihn am besten, indem Evandon mit seiner besonderen Fähigkeit den Zauber {@spell cure wounds|phb|Wunden heilen} wirkt. Auch Shalefire hat eine besondere Fähigkeit, um eigenen Schaden zu heilen, allerdings nur einmal im ganzen Abenteuer. (Die vollständigen Regeln von D&D kennen weitere Wege zu heilen, dieses Abenteuer stützt sich aber auf Evandons Zauber, Shalefires besondere Fähigkeit und einige spätere Gelegenheiten zur Heilung.)"
+											],
+											"id": "035"
+										},
+										{
+											"type": "entries",
+											"name": "Was war das denn?",
+											"page": 9,
+											"entries": [
+												"Lebende Eiszapfen sind magische Kreaturen, die Eistrolle manchmal als Wachen einsetzen. Wem eine Probe gegen {@dc 10} mit einer Fertigkeit wie {@skill Arcana|phb|Arkane Kunde} oder {@skill History|phb|Geschichte} gelingt, der weiß das und kann es den anderen erzählen."
+											],
+											"id": "036"
+										}
+									],
+									"id": "032"
+								},
+								{
+									"type": "entries",
+									"name": "So geht es weiter",
+									"entries": [
+										"Das Drachenbaby will in die Höhle laufen. Wenn die Charaktere bereit sind, geht es weiter mit Begegnung 3: Ein gefährlicher Hort."
+									],
+									"id": "037"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/PiP/0005.webp"
+									},
+									"width": 1320,
+									"height": 1298
+								}
+							],
+							"id": "029"
+						},
+						{
+							"type": "section",
+							"name": "Begegnung 3: Ein gefährlicher Hort",
+							"page": 10,
+							"entries": [
+								"{@b Geschätzte Spielzeit für diese Begegnung: 15 Minuten}",
+								"Nachdem die Charaktere die lebenden Eiszapfen besiegt haben und in die Höhle gegangen sind, müssen sie sich den Gefahren der Gänge stellen, die zum Hort des Silberdrachen führen. Wenn die Charaktere die Höhle betreten, lies Folgendes vor:",
+								{
+									"type": "insetReadaloud",
+									"page": 10,
+									"entries": [
+										"Der vordere Teil der Höhle liegt im Sonnenlicht, das durch den Eingang fällt, der hintere Teil liegt im Dunkeln. Auf den Höhlenwänden sind grobe Kreidezeichnungen von Kreaturen zu sehen, die aussehen wie tanzende und arbeitende Trolle."
+									],
+									"id": "039"
+								},
+								"Bitte die Spieler um eine Probe auf {@skill History|phb|Geschichte} oder {@skill Religion|phb|Religion} gegen {@dc 10}. Zwar hat nur Evandon einen Bonus auf {@skill Religion|phb|Religion} und nur Gallantine einen Bonus auf {@skill History|phb|Geschichte}, die anderen Charaktere dürfen es aber trotzdem versuchen. Ihre Spieler addieren dann einfach nichts zum Wurf auf den {@dice d20}.",
+								"Gelingt die Probe auch nur einem Charakter, erzähle den Spielern, dass in dieser Höhle einst Eistrolle gelebt und gearbeitet haben.",
+								"Selbst wenn die Probe niemandem gelingt, lies danach Folgendes vor:",
+								{
+									"type": "insetReadaloud",
+									"page": 10,
+									"entries": [
+										"In der Höhle wird das Drachenbaby immer aufgeregter, als wüsste es, dass es fast zu Hause ist. Im Schatten am hinteren Ende der Höhle ist gerade noch ein Durchgang zu erkennen, der in einen Tunnel übergeht und ins Innere des Berges hinaufführt."
+									],
+									"id": "03a"
+								},
+								"Weil es hinter dem Eingang dunkel und unheimlich ist, brauchen die Charaktere für ihren Weg die Fackeln aus dem abgewetzten Lederrucksack. Anzünden können sie sie mit dem Feuerstein und dem Stahl aus demselben Rucksack.",
+								{
+									"type": "entries",
+									"name": "Den Hort erreichen",
+									"page": 10,
+									"entries": [
+										"Bis zur Bruthöhle im Hort des Silberdrachen müssen die Charaktere drei Herausforderungen bestehen. Jede davon lässt sich auf unterschiedliche Weise meistern, mit Fertigkeiten, mit Ausrüstung oder mit Angriffen.",
+										"Bei jeder Herausforderung stehen Vorschläge, wie die Charaktere sie bewältigen können. Haben die Spieler aber eigene Ideen, die funktionieren könnten, lass sie einen Wurf auf den {@dice d20} machen, der irgendwie zu ihrer Idee passt. Fantasie führt oft zu einer noch schöneren Geschichte!",
+										{
+											"type": "entries",
+											"name": "Herausforderung 1: Vereiste Wände erklettern",
+											"page": 10,
+											"entries": [
+												"Während die Charaktere durch den Gang gehen, lies Folgendes vor:",
+												{
+													"type": "insetReadaloud",
+													"page": 10,
+													"entries": [
+														"Der kalte, frostige Gang führt weiter, bis ihr vor einer eisbedeckten Wand steht. Fünfzig Fuß über euch geht der Gang weiter. Ihr müsst die Wand hinaufklettern, um tiefer in den Berg zu gelangen."
+													],
+													"id": "03d"
+												},
+												"Um die Wand zu erklettern, muss einem Charakter eine Probe auf {@skill Athletics|phb|Athletik} oder {@skill Acrobatics|phb|Akrobatik} gegen {@dc 10} gelingen. Misslingt die Probe, würfle {@dice 1d6}. Sag dem Spieler, dass er dieses Ergebnis von den Trefferpunkten seines Charakters abziehen soll. Es steht für den Schaden durch einen Sturz, bevor der Charakter es schließlich doch nach oben schafft.",
+												"Noorah hat auf ihrem Charakterbogen unter „Other Equipment\" eine Kletterausrüstung („Climber's Kit\"), die ihr Vorteil auf diese Probe gibt. Hat ein Charakter oben ein Seil dabei, kann er es den anderen hinunterlassen. Wer das Seil benutzt, kommt ohne Probe nach oben.",
+												"Danach führt der Gang weiter aufwärts.",
+												{
+													"type": "inset",
+													"name": "SL-Tipp",
+													"page": 10,
+													"entries": [
+														"Trägt ein Charakter das Drachenbaby und stürzt beim Klettern, nimmt der kleine Drache keinen Schaden. Du kannst einen Charakter, der das Drachenbaby beschützt, mit Vorteil auf bestimmte Würfe belohnen."
+													],
+													"id": "03e"
+												}
+											],
+											"id": "03c"
+										},
+										{
+											"type": "entries",
+											"name": "Herausforderung 2: Der magische Eisspiegel",
+											"page": 10,
+											"entries": [
+												"Während die Charaktere weitergehen, lies Folgendes vor:",
+												{
+													"type": "insetReadaloud",
+													"page": 10,
+													"entries": [
+														"Der gewundene, ansteigende Gang wird von einer dünnen Wand aus massivem Eis unterbrochen. Durch das Eis hindurch seht ihr, dass der Gang auf der anderen Seite weitergeht. Als euer Fackellicht flackert, wird das Eis plötzlich so spiegelnd wie ein Spiegel, und seine Oberfläche schimmert seltsam. In diesen Spiegelbildern seid ihr alle Silberdrachen, und das Drachenbaby sieht aus wie ein Menschenkind mit silbriger Haut."
+													],
+													"id": "040"
+												},
+												"Lass die Spieler auf diese außergewöhnliche Entdeckung reagieren und sie ausspielen, lies dann weiter:",
+												{
+													"type": "insetReadaloud",
+													"page": 10,
+													"entries": [
+														"Im Eis erscheint der Kopf eines großen, platinfarbenen Drachen und beginnt zu sprechen. Ihr versteht seine Worte, obwohl er keine Sprache spricht, die ihr kennt.",
+														"„Ihr seid auf einer gesegneten Mission, doch ihr müsst die richtigen Worte in der richtigen Sprache sprechen, um den Hort eines meiner Kinder zu betreten. Welche zwei Worte beantworten diese Frage: Was für eine Kreatur bringt ihr nach Hause?\""
+													],
+													"id": "041"
+												},
+												"Bitte die Spieler um eine Probe auf {@skill Arcana|phb|Arkane Kunde}, {@skill History|phb|Geschichte} oder {@skill Religion|phb|Religion} gegen {@dc 10}. Gelingt sie einem Charakter, erfährt er, dass die Gestalt im Eis Bahamut darstellt, den Gott der metallischen Drachen (Messing, Bronze, Kupfer, Gold und Silber).",
+												"Die richtige Antwort lautet „Silberdrache\", allerdings müssen die Charaktere sie auf Drakonisch sagen. Auf der Seite aus Hauptmann Koles Buch finden sie die beiden Wörter dafür, „Silber\" und „Drache\": „orn darastrix\".",
+												"Brauchen die Spieler Hilfe oder liegen sie nur zur Hälfte richtig, kann Bahamuts Spiegelbild Hinweise geben, etwa: „Ein Wort ist richtig, das andere fehlt noch.\"",
+												"Spricht ein Charakter die richtigen Worte, lies Folgendes vor:",
+												{
+													"type": "insetReadaloud",
+													"page": 10,
+													"entries": [
+														"Der Eisspiegel schmilzt augenblicklich und übergießt euch alle mit eiskaltem Wasser. Statt euch durchfrieren zu lassen, kribbelt das Wasser aber angenehm, während es an Haut, Kleidung und Rüstung hinunterläuft. Es fühlt sich wunderbar an."
+													],
+													"id": "042"
+												},
+												"Bahamut hat dieses Wasser gesegnet. Sag deinen Spielern, dass die heilende Magie die Trefferpunkte jedes Charakters auf den Höchstwert zurücksetzt, der auf seinem Charakterbogen steht.",
+												"Außerdem hat jeder Charakter Vorteil auf seinen ersten Wurf in der nächsten Herausforderung, den Eisrutschen.",
+												"Die Charaktere können den Eisspiegel auch anders überwinden, etwa indem sie das Eis mit einer Fackel schmelzen oder mit einer Waffe zerschlagen. Dann erhalten sie allerdings Bahamuts heilende Magie nicht. Außerdem nimmt ein Charakter, der den Spiegel zerschlägt, Schaden. Würfle {@dice 1d6} und sag dem Spieler, dass er dieses Ergebnis von den Trefferpunkten seines Charakters abziehen soll, sobald der Spiegel zerspringt.",
+												{
+													"type": "inset",
+													"name": "SL-Tipp",
+													"page": 11,
+													"entries": [
+														"Lass die Charaktere im Abenteuer immer weiterkommen, auch wenn die Spieler schlecht würfeln. Als Folge misslungener Herausforderungen können Charaktere Trefferpunkte verlieren, was die letzte Begegnung schwerer macht. Aber du willst nicht, dass Pech die Charaktere daran hindert, das Abenteuer fortzusetzen."
+													],
+													"id": "043"
+												}
+											],
+											"id": "03f"
+										},
+										{
+											"type": "entries",
+											"name": "Herausforderung 3: Durch die Eisrutschen",
+											"page": 11,
+											"entries": [
+												"Das letzte Stück Weg bis zur Bruthöhle des Silberdrachen besteht aus mehreren Eisrutschen, die sich beim Abwärtsführen vereinen, trennen und kreuzen. Lies Folgendes vor:",
+												{
+													"type": "insetReadaloud",
+													"page": 11,
+													"entries": [
+														"Der Gang hat euch immer höher geführt, und nun steht ihr auf einer Eisklippe und blickt in eine riesige Höhle im Inneren des Berges hinab. Rutschen aus Stein und Eis führen nach unten, doch sie sind steil und glatt. Außerdem laufen diese Rutschen zusammen, kreuzen einander und schlingen sich zu einem schwindelerregenden Labyrinth. Sie scheinen der einzige Weg nach vorn zu sein. Manche enden an massiven Eiswänden. Andere sind mit messerscharfen Eiszapfen gespickt. Ihr müsst die besten Rutschen auswählen, um nach unten zu kommen.",
+														"Plötzlich hört ihr ein Knacken. Die Klippe unter euch bricht ab! Wenn ihr nicht sofort auf eine Rutsche springt, stürzt ihr!"
+													],
+													"id": "045"
+												},
+												"Jeder Charakter muss sofort auf eine der Rutschen springen. Wer einmal rutscht, kann nicht mehr anhalten. In voller Fahrt kann man aber auf eine andere Rutsche wechseln, die die eigene kreuzt.",
+												{
+													"type": "entries",
+													"name": "Den besten Weg finden",
+													"page": 11,
+													"entries": [
+														"Bevor es losgeht, können die Charaktere versuchen, schnell die sicherste Rutsche zu erkennen. Bitte die Spieler dafür um eine Probe auf {@skill Investigation|phb|Nachforschungen} oder {@skill Perception|phb|Wahrnehmung} gegen {@dc 10}. Gelingt sie, wählt der Charakter die beste Rutsche und kommt sicher unten an. Er nimmt keinen Schaden, aber du kannst die wilde Fahrt bis zum Höhlenboden ausschmücken."
+													],
+													"id": "046"
+												},
+												{
+													"type": "entries",
+													"name": "Die Rutsche wechseln",
+													"page": 11,
+													"entries": [
+														"Wem die Probe misslingt, der landet auf einer Rutsche, die ihn rasch zu gefährlichen Abschnitten aus messerscharfen Eissplittern, tiefen Abbrüchen, Eiswänden und anderen Gefahren trägt. Diesem Charakter muss eine Probe auf {@skill Acrobatics|phb|Akrobatik} oder {@skill Athletics|phb|Athletik} gegen {@dc 15} gelingen, um auf eine sicherere Rutsche zu springen und keinen Schaden zu nehmen. Ein Charakter, der diese Fertigkeiten nicht auf seinem Bogen stehen hat, darf die Probe trotzdem versuchen, addiert dann aber nichts zum Wurf auf den {@dice d20}.",
+														"Misslingt die Probe, würfle {@dice 1d6}. Sag dem Spieler, dass er dieses Ergebnis von den Trefferpunkten seines Charakters abziehen soll. Es steht für den Schaden auf dem Weg zum Ende der Rutsche."
+													],
+													"id": "047"
+												},
+												{
+													"type": "entries",
+													"name": "Die Szene beschreiben",
+													"page": 11,
+													"entries": [
+														"Während die Charaktere diese gefährlichen Rutschen hinunterrasen, überlege dir, wie du oder die Spieler beschreiben könnt, wie sie von einer Rutsche zur nächsten springen, durch Schleifen und Kurven schießen und sich um Haaresbreite verfehlen. Gib den Spielern Gelegenheit, selbst zu erzählen, was ihre Charaktere gerade erleben.",
+														{
+															"type": "inset",
+															"name": "SL-Tipp",
+															"page": 11,
+															"entries": [
+																"Wenn einem Charakter die Probe gelingt, einen sicheren Weg nach unten zu finden, sagen die anderen Spieler vielleicht, dass ihre Charaktere einfach dieselbe Rutsche nehmen. Das macht die Herausforderung womöglich zu leicht. Du kannst sie schwerer machen, indem der obere Teil der sicheren Rutsche abbricht, sobald der erste Charakter losgerutscht ist. Wenn du das jedes Mal so handhabst, muss jeder Charakter seinen eigenen Weg finden."
+															],
+															"id": "049"
+														}
+													],
+													"id": "048"
+												}
+											],
+											"id": "044"
+										},
+										{
+											"type": "entries",
+											"name": "So geht es weiter",
+											"page": 11,
+											"entries": [
+												"Vom Fuß der Rutschen ist es nur ein kurzer Weg bis zur Bruthöhle. Die Charaktere sind bereit für die letzte Gefahr! Weiter geht es mit Begegnung 4: Dracheneier und Aufsteigendes Silber.",
+												{
+													"type": "image",
+													"href": {
+														"type": "internal",
+														"path": "adventure/PiP/001-0103.webp"
+													},
+													"width": 2022,
+													"height": 916
+												}
+											],
+											"id": "04a"
+										}
+									],
+									"id": "03b"
+								}
+							],
+							"id": "038"
+						},
+						{
+							"type": "section",
+							"name": "Begegnung 4: Dracheneier und Aufsteigendes Silber",
+							"page": 12,
+							"entries": [
+								"{@b Geschätzte Spielzeit für diese Begegnung: 15 Minuten}",
+								"Wenn die Charaktere die Bruthöhle betreten, lies Folgendes vor:",
+								{
+									"type": "insetReadaloud",
+									"page": 12,
+									"entries": [
+										"Diese große Kammer ist voller Stalaktiten und Stalagmiten, die von Eis überzogen sind. Die Decke steigt zu einem Loch hoch über euch an, das von Eis verstopft ist. Am Boden in der Mitte der Kammer liegen zwei große silberne Eier auf Haufen aus gefrorenem Schnee. An einer dritten Stelle liegen nur noch zerbrochene Schalenstücke. An einer vierten hat offenbar ebenfalls ein Ei gelegen, doch dieses Ei fehlt.",
+										"Zwischen euch und den Eiern stehen zwei seltsame Kreaturen von der Größe eines Pferdes. Ihre Körper gleichen denen von Fröschen, doch ihre Haut ist reinweiß, und ihre Mäuler sind voller spitzer Zähne.",
+										"Die Kreaturen bewegen sich drohend auf die beiden verbliebenen Eier im Nest zu, doch ihr habt sie unterbrochen. Sie drehen sich zu euch um und zischen. Dann stoßen sie sich mit kraftvollen Sprüngen ab und stürzen sich auf euch!"
+									],
+									"id": "04c"
+								},
+								"Diese Kreaturen sind Eierräuber, von Eistrollen darauf abgerichtet, Dracheneier zu stehlen. Greifen die Charaktere nicht ein, gehen auch die letzten beiden Eier verloren!",
+								{
+									"type": "inset",
+									"name": "Eierräuber",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Rüstungsklasse",
+													"entry": "12",
+													"nameDot": false
+												},
+												{
+													"type": "item",
+													"name": "Trefferpunkte",
+													"entry": "18",
+													"nameDot": false
+												}
+											]
+										},
+										{
+											"type": "variantInner",
+											"name": "Angriff",
+											"entries": [
+												{
+													"type": "entries",
+													"name": "Biss",
+													"entries": [
+														"{@atk mw} {@hit 4} auf den Angriff. {@h}{@damage 1d6 + 2} Stichschaden."
+													],
+													"id": "04f"
+												}
+											],
+											"id": "04e"
+										}
+									],
+									"id": "04d"
+								},
+								"Es sind drei Eierräuber. Habt ihr drei oder weniger Spieler, entferne einen Eierräuber, sodass die Charaktere es mit zwei Gegnern zu tun haben. Habt ihr zwei oder weniger Spieler, senke die Trefferpunkte der beiden Eierräuber zu Beginn auf 10.",
+								"Dieser Kampf läuft genauso ab wie in „Begegnung 2: Lebende Eiszapfen\". Der SL-Tipp aus jener Begegnung hilft dir dabei, den Spielern Nah- und Fernkampfangriffe noch einmal zu erklären, falls nötig.",
+								{
+									"type": "entries",
+									"name": "Reihum handeln",
+									"page": 12,
+									"entries": [
+										"Die Charaktere handeln zuerst, beginnend mit dem Spieler zu deiner Linken und dann im Uhrzeigersinn weiter. Frag jeden Spieler, was er tun will.",
+										"Wenn alle Spieler gehandelt haben, greifen die noch nicht besiegten Eierräuber an. Jedes Monster, das noch Trefferpunkte hat, geht zu einem anderen Charakter und greift ihn mit seinem Biss an.",
+										"Würfle einen {@dice d20} und addiere den Angriffsbonus (+4). Erreicht oder übertrifft das Ergebnis die Rüstungsklasse des angegriffenen Charakters, trifft der Angriff. Würfle {@dice 1d6} und addiere den Schadensbonus (+2). Sag dem Spieler, dass er diesen Schaden von seinen Trefferpunkten abziehen soll. Verfehlt der Angriff, passiert nichts. Beschreibe den Angriff in beiden Fällen. Vielleicht schnappt ein Maul um einen Knöchel, vielleicht bricht sich der Eierräuber auch einen Zahn an einem Rüstungsteil aus.",
+										"Beschreibe, wie die Eierräuber besiegt zu Boden gehen oder so schnell in die Dunkelheit fliehen, dass die Charaktere ihnen nicht folgen können.",
+										{
+											"type": "inset",
+											"name": "SL-Tipp",
+											"page": 12,
+											"entries": [
+												"Ein Charakter, dessen Trefferpunkte auf 0 sinken, wird {@condition unconscious|phb|bewusstlos} und bleibt es, bis er durch Heilung Trefferpunkte zurückerhält. Am Ende der Begegnung erhält jeder {@condition unconscious|phb|bewusstlose} Charakter automatisch 1 Trefferpunkt zurück."
+											],
+											"id": "051"
+										}
+									],
+									"id": "050"
+								},
+								{
+									"type": "entries",
+									"name": "Nachdem die Charaktere gewonnen haben",
+									"page": 12,
+									"entries": [
+										"Sobald die Eierräuber besiegt sind, krabbelt das Drachenbaby ins Nest, macht es sich zwischen den zerbrochenen Eierschalen bequem und schläft ein."
+									],
+									"id": "052"
+								},
+								{
+									"type": "entries",
+									"name": "So geht es weiter",
+									"page": 12,
+									"entries": [
+										"Bevor die Charaktere irgendetwas anderes tun können, kehrt die Drachenmutter zurück! Lies Folgendes vor:",
+										{
+											"type": "insetReadaloud",
+											"page": 12,
+											"entries": [
+												"Hoch über euch kracht es gewaltig. Eis- und Schneebrocken prasseln um euch herum zu Boden, als ein riesiger Silberdrache durch eine zugefrorene Stelle der Höhlendecke bricht. Der Drache stürzt herab und landet vor euch, eisige Luft strömt zwischen seinen scharfen Zähnen hervor.",
+												"„Was geht hier vor?\", brüllt der Drache."
+											],
+											"id": "054"
+										},
+										"Jetzt haben die Charaktere einiges zu erklären! Weiter geht es mit dem Ausklang.",
+										{
+											"type": "image",
+											"href": {
+												"type": "internal",
+												"path": "adventure/PiP/0006.webp"
+											},
+											"width": 1320,
+											"height": 1079
+										}
+									],
+									"id": "053"
+								}
+							],
+							"id": "04b"
+						},
+						{
+							"type": "section",
+							"name": "Ausklang",
+							"page": 13,
+							"entries": [
+								"{@b Geschätzte Spielzeit für diesen Abschnitt: 10 Minuten}",
+								"Die wütende Silberdrachin wartet darauf, dass die Charaktere sich erklären. Das ist eine gute Gelegenheit für die Spieler, ihre Charaktere auszuspielen.",
+								"Im Lauf des Gesprächs kann die Drachin verraten, dass sie Hysvearorn heißt, kurz Rorn. Im Abschnitt „Die Drachin\" findest du weitere Hinweise, mit denen du sie ausspielen kannst.",
+								"Wenn die Spieler zögern, etwas zu sagen, stelle ihnen eine der folgenden Fragen:",
+								{
+									"type": "list",
+									"items": [
+										"„Die Drachin hat euch gefragt, was ihr hier tut. Was antwortet ihr?\"",
+										"„Wie fühlt sich dein Charakter dabei, vor einer unglaublich wütenden Drachin von der Größe eines kleinen Hauses zu stehen?\"",
+										"„Was könnt ihr tun oder sagen, um der Drachin zu beweisen, dass ihr ihr Kleines zurückbringt?\""
+									]
+								},
+								"Solange die Charaktere nichts Unüberlegtes tun, begreift Rorn schnell, dass sie nicht gekommen sind, um ihre Eier zu stehlen, sondern um ihr Baby zurückzubringen.",
+								{
+									"type": "inset",
+									"name": "SL-Tipp",
+									"page": 13,
+									"entries": [
+										"Drachen sind ungeheuer mächtig. Beschließen die Spieler, Rorn anzugreifen, kannst du damit auf verschiedene Arten umgehen:",
+										{
+											"type": "list",
+											"items": [
+												"Die Drachin sieht sie enttäuscht an und sagt ihnen, sie sollen keinen Unsinn machen.",
+												"Bitte die Charaktere um Proben auf {@skill Nature|phb|Naturkunde} und sage dem Charakter mit dem höchsten Ergebnis, dass eine so mächtige Drachin die ganze Gruppe mühelos besiegen könnte.",
+												"Lass die Charaktere ruhig angreifen oder zaubern und erzähle dann, dass die Drachin diese Versuche einfach ignoriert.",
+												"Verhalten sich die Charaktere weiter feindselig oder aufsässig, setzt Rorn ihren magischen Drachenodem ein. Er verletzt die Charaktere nicht, macht sie aber bewegungsunfähig. Anschließend setzt sie die Gruppe unverletzt außerhalb des Berges ab, eine Belohnung gibt es dann allerdings nicht."
+											]
+										}
+									],
+									"id": "056"
+								},
+								{
+									"type": "entries",
+									"name": "Die Drachin",
+									"page": 13,
+									"entries": [
+										"Diese Eigenheiten der Silberdrachin helfen dir beim Ausspielen:",
+										{
+											"type": "list",
+											"items": [
+												"Hysvearorn ist eine ausgewachsene Silberdrachin. Ihr vollständiger Name bedeutet übersetzt „Aufsteigendes Silber\".",
+												"Sie bittet die Charaktere, sie Rorn zu nennen, weil das für Nichtdrachen leichter auszusprechen ist als ihr voller Name.",
+												"Erklären die Charaktere, was geschehen ist, beruhigt sich die Drachin rasch und dankt ihnen für die Rettung ihres Kleinen.",
+												"Rorn ist freundlich, solange man sie nicht erzürnt, und sie mag andere Völker. In friedlichen Zeiten tauscht sie gern Geschichten mit ihnen aus.",
+												"Fragen die Charaktere nach dem Wort „Nytha\", das der kleine Drache gesagt hat, erklärt Rorn, dass es auf Drakonisch „Mama\" heißt.",
+												"Rorn erklärt, dass Drachen ihre Jungen „Wyrmlinge\" nennen und nicht Babys."
+											]
+										},
+										"Rorn kann außerdem erzählen, was mit ihren Eiern geschehen ist:",
+										{
+											"type": "list",
+											"items": [
+												"Rorn hat sich hier vor Kurzem einen Hort eingerichtet, um ihre Wyrmlinge schlüpfen zu lassen. Die gefährlichen Eistrolle, die hier lebten, hat sie vertrieben.",
+												"Kurz bevor die Eier schlüpfen sollten, haben die Eistrolle Rorn angegriffen und eines ihrer Eier gestohlen. Rorn hat die Diebe verfolgt und war deshalb mehrere Stunden lang nicht im Hort.",
+												"Die Eistrolle haben das Ei in einen Tunnel in einem anderen Berg gebracht, in den Rorn nicht hineinpasste. Sie weiß nicht, wohin dieser Tunnel führt."
+											]
+										},
+										"Der gerettete Wyrmling erzählt seiner Mutter, was ihm zugestoßen ist, und auch das kann Rorn den Charakteren weitergeben:",
+										{
+											"type": "list",
+											"items": [
+												"Der Wyrmling ist geschlüpft, während Rorn die Eierdiebe verfolgte. Als er sich allein wiederfand, wanderte er aus dem Hort in den Wald hinaus.",
+												"Die Charaktere haben ihn gefunden und sich auf dem Heimweg gut um ihn gekümmert."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Noch mehr Wyrmlinge!",
+											"page": 13,
+											"entries": [
+												"Während die Charaktere mit Rorn sprechen, schlüpfen die beiden anderen Eier. Rorn beobachtet aufmerksam, wie die Wyrmlinge ihre Schalen aufbrechen und sich dann an ihre Mutter schmiegen. Sie zieht gefrorenes Fleisch aus dem Nest und füttert sie."
+											],
+											"id": "058"
+										}
+									],
+									"id": "057"
+								},
+								{
+									"type": "entries",
+									"name": "Die Belohnung",
+									"page": 13,
+									"entries": [
+										"Nachdem die beiden anderen Drachenbabys geschlüpft sind, wendet sich Rorn an die Charaktere. Lies Folgendes vor:",
+										{
+											"type": "insetReadaloud",
+											"page": 13,
+											"entries": [
+												"Rorn dankt euch noch einmal für eure Hilfe. „Bitte, nehmt das als Zeichen meiner Dankbarkeit.\" Sie gräbt im Schnee, in dem die Eier lagen, und zieht für jeden von euch einen kleinen, glänzenden Diamanten hervor.",
+												"„Noch wichtiger ist aber: Ihr habt euch bereits mit meinem Erstgeschlüpften angefreundet. Er soll weiter lernen, wie es ist, im Reich der Menschen aufzuwachsen. Würdet ihr ihn mit in eure Siedlung nehmen und großziehen? Ich werde über eure Gegend wachen und euch helfen, und ich bin immer für euch da, wenn ihr Fragen habt.\"",
+												"Die Drachin fährt fort: „Ich habe noch eine Bitte. Wenn ich herausgefunden habe, wohin genau die Eistrolle mein letztes Ei gebracht haben, würdet ihr es dann zurückholen, damit mein Kind vor dem sicher ist, was die Eistrolle mit ihm vorhaben?\""
+											],
+											"id": "05a"
+										},
+										"Lass die Charaktere auf Rorns Angebot reagieren. Wie auch immer sie auf ihre Bitten antworten, Rorn bleibt freundlich und höflich, solange sie ebenfalls freundlich und höflich sind.",
+										{
+											"type": "entries",
+											"name": "Schatz",
+											"page": 13,
+											"entries": [
+												"Jeder der kleinen Diamanten ist 50 Goldmünzen wert. Jeder Charakter kann ihn auf seinem Charakterbogen unter „Other Equipment\" eintragen."
+											],
+											"id": "05b"
+										}
+									],
+									"id": "059"
+								},
+								{
+									"type": "entries",
+									"name": "Zurück nach Pinebrook",
+									"page": 13,
+									"entries": [
+										"Am Ende des Gesprächs zeigt Rorn den Charakteren einen geheimen Gang, der aus dem Berg hinausführt. Damit endet ihr Abenteuer … fürs Erste!"
+									],
+									"id": "05c"
+								}
+							],
+							"id": "055"
+						},
+						{
+							"type": "section",
+							"name": "Anhang A",
+							"page": 14,
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Gemeinsprache",
+										"Drakonisch"
+									],
+									"colStyles": [
+										"col-6",
+										"col-6"
+									],
+									"rows": [
+										[
+											"aber",
+											"shar"
+										],
+										[
+											"also",
+											"zyak"
+										],
+										[
+											"Anführer",
+											"maekrix"
+										],
+										[
+											"Asche",
+											"vignar"
+										],
+										[
+											"auf",
+											"shafear"
+										],
+										[
+											"Axt",
+											"garurt"
+										],
+										[
+											"Berg",
+											"verthicha"
+										],
+										[
+											"Beutel",
+											"waeth"
+										],
+										[
+											"blau",
+											"ulhar"
+										],
+										[
+											"Bogen",
+											"vaex"
+										],
+										[
+											"böse",
+											"malsvir"
+										],
+										[
+											"brennen",
+											"valignat"
+										],
+										[
+											"Bronze",
+											"aujir"
+										],
+										[
+											"Dämon",
+											"kothar"
+										],
+										[
+											"Dieb",
+											"virlym"
+										],
+										[
+											"Drache",
+											"darastrix"
+										],
+										[
+											"du",
+											"wux"
+										],
+										[
+											"durch",
+											"erekess"
+										],
+										[
+											"Edelstein",
+											"kethend"
+										],
+										[
+											"Elf",
+											"vaecaesin"
+										],
+										[
+											"Erde",
+											"edar"
+										],
+										[
+											"Feind",
+											"irlym"
+										],
+										[
+											"fern",
+											"karif"
+										],
+										[
+											"Feuer",
+											"ixen"
+										],
+										[
+											"Fleisch",
+											"rhyaex"
+										],
+										[
+											"fliegen",
+											"austrat"
+										],
+										[
+											"fliehen",
+											"osvith"
+										],
+										[
+											"Freund",
+											"thurirl"
+										],
+										[
+											"Frieden",
+											"martivir"
+										],
+										[
+											"geben",
+											"majak"
+										],
+										[
+											"Gefahr",
+											"korth"
+										],
+										[
+											"Geheimnis",
+											"irthos"
+										],
+										[
+											"gehen",
+											"gethrisj"
+										],
+										[
+											"Gnom",
+											"terunt"
+										],
+										[
+											"Gold",
+											"aurix"
+										],
+										[
+											"groß",
+											"turalisj"
+										],
+										[
+											"grün",
+											"achuak"
+										],
+										[
+											"gut",
+											"bensvelk"
+										],
+										[
+											"hassen",
+											"dartak"
+										],
+										[
+											"hässlich",
+											"nurh"
+										],
+										[
+											"Haustier",
+											"kosjirl"
+										],
+										[
+											"Haut",
+											"molik"
+										],
+										[
+											"Heim",
+											"okarthel"
+										],
+										[
+											"hinter",
+											"zara"
+										],
+										[
+											"Höhle",
+											"waere"
+										],
+										[
+											"in",
+											"persvek"
+										],
+										[
+											"ja",
+											"axun"
+										],
+										[
+											"Jahrhundert",
+											"ierikc"
+										],
+										[
+											"Klaue",
+											"gix"
+										],
+										[
+											"klein",
+											"kosj"
+										],
+										[
+											"klug",
+											"othokent"
+										],
+										[
+											"Krieg",
+											"aryte"
+										],
+										[
+											"Kupfer",
+											"rach"
+										],
+										[
+											"Lied",
+											"miirik"
+										],
+										[
+											"Luft",
+											"thrae"
+										],
+										[
+											"Magie",
+											"arcaniss"
+										],
+										[
+											"Magier",
+											"levethix"
+										],
+										[
+											"Mensch",
+											"munthrek"
+										],
+										[
+											"Messing",
+											"auraj"
+										],
+										[
+											"Mut",
+											"sveargith"
+										],
+										[
+											"nach",
+											"ghent"
+										],
+										[
+											"Nacht",
+											"thurkear"
+										],
+										[
+											"nah",
+											"leirith"
+										],
+										[
+											"Nahrung",
+											"achthend"
+										],
+										[
+											"Name",
+											"ominak"
+										],
+										[
+											"neben",
+											"unsiti"
+										],
+										[
+											"nehmen",
+											"clax"
+										],
+										[
+											"nein",
+											"thrice"
+										],
+										[
+											"oben",
+											"svern"
+										],
+										[
+											"Oger",
+											"ghontix"
+										],
+										[
+											"Pfeil",
+											"svent"
+										],
+										[
+											"rasten",
+											"ssifisv"
+										],
+										[
+											"reden",
+											"ukris"
+										],
+										[
+											"Regen",
+											"oposs"
+										],
+										[
+											"reisen",
+											"ossalur"
+										],
+										[
+											"rot",
+											"charir"
+										],
+										[
+											"Rüstung",
+											"litrix"
+										],
+										[
+											"Schatten",
+											"sjach"
+										],
+										[
+											"Schatz",
+											"rasvim"
+										],
+										[
+											"Schlacht",
+											"vargach"
+										],
+										[
+											"schön",
+											"vorel"
+										],
+										[
+											"Schriftrolle",
+											"sjir"
+										],
+										[
+											"Schüler",
+											"thurae"
+										],
+										[
+											"schwarz",
+											"vutha"
+										],
+										[
+											"schweben",
+											"hysvear"
+										],
+										[
+											"Schwert",
+											"caex"
+										],
+										[
+											"sehen",
+											"ocuir"
+										],
+										[
+											"Sieg",
+											"vivex"
+										],
+										[
+											"Silber",
+											"orn"
+										],
+										[
+											"sprechen",
+											"renthisj"
+										],
+										[
+											"stark",
+											"versvesh"
+										],
+										[
+											"Stein",
+											"ternesj"
+										],
+										[
+											"sterben",
+											"loreat"
+										],
+										[
+											"Sturm",
+											"kespek"
+										],
+										[
+											"Tag",
+											"kear"
+										],
+										[
+											"Tal",
+											"arux"
+										],
+										[
+											"tanzen",
+											"vaeri"
+										],
+										[
+											"Tier",
+											"baeshra"
+										],
+										[
+											"töricht",
+											"pothoc"
+										],
+										[
+											"tot",
+											"loex"
+										],
+										[
+											"und",
+											"vur"
+										],
+										[
+											"unter",
+											"onureth"
+										],
+										[
+											"verzaubert",
+											"levex"
+										],
+										[
+											"viele",
+											"throden"
+										],
+										[
+											"vor",
+											"ghoros"
+										],
+										[
+											"Waffe",
+											"laraek"
+										],
+										[
+											"Wald",
+											"caesin"
+										],
+										[
+											"Wasser",
+											"hesjing"
+										],
+										[
+											"weiß",
+											"aussir"
+										],
+										[
+											"wir",
+											"yth"
+										],
+										[
+											"wollen",
+											"tuor"
+										],
+										[
+											"Zauberer",
+											"vorastrix"
+										],
+										[
+											"Zwerg",
+											"tundar"
+										]
+									]
+								},
+								{
+									"type": "quote",
+									"entries": [
+										"Glaubt mir, ich habe ziemlich lange gebraucht, um die drakonischen Wörter zu lernen. Als ich sie dann konnte, hat das meinem Verhältnis zu Drachen ungemein geholfen."
+									]
+								}
+							],
+							"id": "05d"
+						},
+						{
+							"type": "gallery",
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/PiP/0007.webp"
+									},
+									"width": 1963,
+									"height": 1926
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/PiP/0010.webp"
+									},
+									"width": 2550,
+									"height": 2553
+								}
+							]
+						}
+					],
+					"id": "000"
+				},
+				{
+					"type": "section",
+					"name": "Mitwirkende",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Autor",
+									"entries": [
+										"Shawn Merwin"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Beratender Autor",
+									"entries": [
+										"Dan Dillon"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Künstlerische Leitung",
+									"entries": [
+										"Bree Heiss"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Lektorat",
+									"entries": [
+										"Janica Carter, Scott Fitzgerald Gray"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Grafikdesign",
+									"entries": [
+										"Emma Ekblad, Zsolt Tóth"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Titelillustration",
+									"entries": [
+										"Katerina Ladon"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Innenillustrationen",
+									"entries": [
+										"Emily Fiegenschuh, Jim Nelson, Eva Widermann"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Produktion",
+									"entries": [
+										"Bill Benham, Siera Bruggeman"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Produktmanagement",
+									"entries": [
+										"Natalie Egan"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Markenleitung",
+									"entries": [
+										"Shelly Mazzanoble"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Deutsche Fassung",
+									"entries": [
+										"Inoffizielle deutsche Übersetzung des englischen Originals Peril in Pinebrook. Kein offizielles Produkt von Wizards of the Coast."
+									]
+								},
+								"Besonderer Dank an Quinn Carroll, Familie Hawes, Aurora Merwin und Beth Merwin"
+							]
+						}
+					],
+					"id": "05e"
+				}
+			]
+		}
+	]
+}

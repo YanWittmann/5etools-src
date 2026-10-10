@@ -1,0 +1,657 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DelianTomb",
+				"abbreviation": "DDG",
+				"full": "Das Delische Grab",
+				"version": "1.0.0",
+				"color": "6b4f3a",
+				"colorNight": "c39a72",
+				"authors": [
+					"Matt Colville"
+				],
+				"convertedBy": [
+					"Deutsche Fanübersetzung"
+				],
+				"dateReleased": "2026-09-16"
+			}
+		],
+		"edition": "classic",
+		"status": "ready",
+		"dateAdded": 1789516800,
+		"dateLastModified": 1789516800
+	},
+	"adventure": [
+		{
+			"name": "Das Delische Grab",
+			"id": "DelianTomb",
+			"source": "DelianTomb",
+			"group": "homebrew",
+			"author": "Matt Colville",
+			"storyline": "Running the Game",
+			"level": {
+				"start": 1,
+				"end": 1
+			},
+			"contents": [
+				{
+					"name": "Das Delische Grab",
+					"headers": [
+						"Überblick",
+						"Teil 1: Ihr beginnt in einer Taverne",
+						"Teil 2: Goblinspuren",
+						"Teil 3: Raus aus dem Wald",
+						"Teil 4: Das Delische Grab"
+					]
+				},
+				{
+					"name": "Anhang: Monster und Schätze",
+					"headers": [
+						"Monster",
+						"Magische Gegenstände und andere Schätze",
+						"Mitwirkende"
+					]
+				}
+			],
+			"published": "2026-09-16"
+		}
+	],
+	"adventureData": [
+		{
+			"id": "DelianTomb",
+			"source": "DelianTomb",
+			"data": [
+				{
+					"type": "section",
+					"name": "Das Delische Grab",
+					"id": "ddg-kapitel-1",
+					"entries": [
+						{
+							"type": "section",
+							"name": "Überblick",
+							"id": "ddg-ueberblick",
+							"entries": [
+								"Dieses Abenteuer beginnt in einem kleinen Weiler im Hinterland des Königreichs, einem ruhigen Ort … die meiste Zeit jedenfalls.",
+								"In letzter Zeit sind immer mehr Goblins in die Gegend gekommen, und einige dieser üblen Kreaturen haben sogar begonnen, die abgelegenen Höfe rund um das Dorf Villane zu überfallen.",
+								"Die Spielercharaktere sind Freunde aus einem nahen Dorf und auf dem Weg nach Bedegar, auf der Suche nach Abenteuern.",
+								"Es dauert nicht lange, bis sie in die Machenschaften der Goblins hineingeraten und die Tochter des Schmieds bis in die Tiefen eines längst vergessenen Grabes verfolgen.",
+								"Das ist ihre Gelegenheit, sich zu beweisen und jemanden in Not zu retten, sofern sie die Gefahren des Delischen Grabes überleben!"
+							]
+						},
+						{
+							"type": "section",
+							"name": "Teil 1: Ihr beginnt in einer Taverne",
+							"id": "ddg-teil-1",
+							"entries": [
+								"Wenn die Spielercharaktere in Villane ankommen, erkennen die Dorfbewohner sie als Abenteurer, als Rattenfänger, also als Leute, die für ein paar Münzen so ziemlich alles bekämpfen. Genau solche Leute braucht Villane gerade.",
+								"Spätestens jetzt haben alle Spieler ihre Charakterbögen, und ihr könnt loslegen. Lies den folgenden Abschnitt vor:",
+								{
+									"type": "insetReadaloud",
+									"id": "ddg-vorlesen-taverne",
+									"entries": [
+										"Die Dämmerung fällt, und einige Reisende kehren im Gasthaus Zum Grünen Drachen ein, für etwas zu essen, für Wärme und für einen Platz zum Ausruhen. Eine Handvoll Dorfbewohner sitzt hier, isst, trinkt und redet über den vergangenen Tag. Im Weiler Villane gleicht ein Tag dem anderen. Doch beim Anblick eurer Gruppe sagt diesen Dorfbewohnern irgendetwas, dass heute etwas anders sein wird."
+									]
+								},
+								"Jetzt wäre ein guter Moment, die Spieler ihre Charaktere beschreiben zu lassen. Es hilft allen, ein Bild davon zu bekommen, wer da am Tisch sitzt und aus wem die Gruppe besteht, und alle tauchen dadurch etwas tiefer in die Geschichte ein.",
+								"Sobald alle ihren Charakter vorgestellt haben, bringst du die Sache wieder in Gang, indem du den ersten Nichtspielercharakter einführst: Matt, den Schankburschen.",
+								{
+									"type": "insetReadaloud",
+									"id": "ddg-vorlesen-matt",
+									"entries": [
+										"„Kann ich euch etwas zu essen bringen? Zu trinken? Wo kommt ihr her, wo wollt ihr hin? Es kommen nicht mehr viele Rattenfänger durch Villane in diesen Tagen.\""
+									]
+								},
+								"Das ist deine Gelegenheit, den Spielern die Welt näherzubringen, also gib Matt ruhig ordentlich Persönlichkeit! Nimm dir einen Moment, um zu beschreiben, wie er aussieht, wie er sich bewegt und was er tut, während er an den Tisch tritt.",
+								"Während Matt losgeht, um das Bestellte zu holen, und die Charaktere Gelegenheit hatten, einander und die Nichtspielercharaktere kennenzulernen, muss etwas passieren …",
+								{
+									"type": "insetReadaloud",
+									"id": "ddg-vorlesen-lars",
+									"entries": [
+										"Ein großer Mann in einer schwarzen Lederschürze über Leinenhemd und Wollhose stürzt zur Tür herein. Er riecht nach Schwefel und trägt einen schweren Hammer.",
+										"„Sie haben Bess\", sagt er, „sie haben mein Mädchen!\""
+									]
+								},
+								"Goblins haben die Tochter des Schmieds entführt!",
+								"Richtig, das ist der zweite wichtige Nichtspielercharakter: Lars, der Schmied.",
+								"Alle im Dorf kennen Lars und mögen ihn, doch niemand hier ist dafür gerüstet, Goblins zu jagen.",
+								"Lars erkennt eine Gruppe Rattenfänger so schnell wie jeder andere, und er zögert keinen Moment, die Abenteurer um Hilfe zu bitten.",
+								"Falls deine Spieler sich nicht schon aus Gerechtigkeitssinn und Pflichtgefühl auf den Weg machen, kann Lars sie darauf hinweisen, dass auf Anordnung des Herzogs ein Kopfgeld auf Goblinohren ausgesetzt ist.",
+								"An dieser Stelle sei daran erinnert: Einer deiner besten Züge als Spielleitung ist es, die Spieler schlicht zu fragen: {@i „Was tut ihr?\"} Hier bietet sich dieser Zug geradezu an!",
+								"Sobald Lars die Abenteurer überzeugt hat, geht es weiter mit Teil 2.",
+								{
+									"type": "inset",
+									"name": "Attributswürfe",
+									"id": "ddg-kasten-proben",
+									"entries": [
+										"Wenn du einen Spieler um einen Attributswurf bittest, würfelt er einen {@dice d20} und addiert den passenden Attributsmodifikator.",
+										"Im obigen Fall würfelt ein Charakter, der nach Spuren sucht, eine Probe auf Weisheit ({@skill Survival|phb|Überlebenskunst}) gegen einen Schwierigkeitsgrad, den du festlegst.",
+										"Erreicht oder übertrifft das Ergebnis den Schwierigkeitsgrad, ist die Probe ein Erfolg, die Kreatur meistert die Herausforderung also. Andernfalls ist sie ein Misserfolg, das heißt, der Charakter oder das Monster kommt seinem Ziel nicht näher oder kommt ihm näher, handelt sich dabei aber einen Rückschlag ein, den du festlegst.",
+										"Merke dir die folgenden Schwierigkeitsgrade als Faustregel, du kannst für deine Herausforderungen aber jede beliebige Zahl wählen.",
+										{
+											"type": "table",
+											"colLabels": [
+												"Schwierigkeit",
+												"DC"
+											],
+											"colStyles": [
+												"col-6",
+												"col-6 text-center"
+											],
+											"rows": [
+												[
+													"Leicht",
+													"10"
+												],
+												[
+													"Mittel",
+													"15"
+												],
+												[
+													"Schwer",
+													"20"
+												]
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Teil 2: Goblinspuren",
+							"id": "ddg-teil-2",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Die Schmiede",
+									"id": "ddg-schmiede",
+									"entries": [
+										"Lars weiß nicht, wohin die Goblins seine Tochter verschleppt haben, aber er ist sich sicher, dass ein fähiger Abenteurer rund um sein Haus Spuren finden kann.",
+										"Lars kann diesen Hinweis geben, wenn die Spieler nicht weiterwissen, gib ihnen aber zuerst die Gelegenheit, von sich aus vorzuschlagen, den Tatort zu untersuchen.",
+										"Den Weg vom Gasthaus Zum Grünen Drachen zu Lars' Schmiede kannst du einfach erzählen und dabei die staubige Straße und die Bäume am Wegesrand beschreiben.",
+										"An der Schmiede angekommen, greifst du zu deinem klassischen Zug als Spielleitung und fragst die Spieler: {@i „Was tut ihr?\"}",
+										"Du kannst Lars die Gruppe auch anstupsen lassen: {@i „Seht ihr irgendwelche Spuren?\"}",
+										"Das ist deine erste Gelegenheit, den Charakter, der nach Spuren sucht, um einen Attributswurf zu bitten.",
+										"Die Spuren sind zahlreich und leicht zu erkennen. Wem eine Probe auf Weisheit ({@skill Survival|phb|Überlebenskunst}) gegen {@dc 10} gelingt, der erkennt, dass mindestens zwei Goblins etwas nach Norden in den Wald geschleift haben. „Der Eberwald\", merkt Lars an."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Der Eberwald",
+									"id": "ddg-eberwald",
+									"entries": [
+										"Der Eberwald ist ein ausgedehntes Waldgebiet, in dem, wie der Name nahelegt, vor allem Wildschweine leben. Die Menschen aus der Gegend jagen hier oft, und Goblins gibt es hier nicht. Wenn die Goblins diesen Weg genommen haben, muss ihr Unterschlupf irgendwo jenseits des Eberwalds liegen.",
+										"Der Weg auf die andere Seite des Waldes dauert länger, als die Gruppe an einem Tag schafft, die Abenteurer müssen also im Wald übernachten.",
+										"Das ist eine gute Gelegenheit, die Spieler daran zu erinnern, dass die Wildnis gefährlich ist. Dein Ziel ist es, dass sie mitten im Wald Wachen einteilen und sich unbehaglich fühlen, weil sie sich fragen, ob sie mitten in der Nacht etwas angreift!",
+										{
+											"type": "insetReadaloud",
+											"id": "ddg-vorlesen-lager",
+											"entries": [
+												"Ihr zieht tief in den Eberwald hinein und folgt der Spur der Goblins bis weit in die Nacht hinein. Schließlich ist es zu dunkel, um euch weiter durch den Wald zu bewegen, und so sucht ihr euch eine kleine Lichtung und schlagt ein Lager auf."
+											]
+										},
+										"Lass die Spieler entscheiden, wer die erste Wache übernimmt, und bitte diesen Spieler um einen Wurf auf den {@dice d12}.",
+										{
+											"type": "table",
+											"caption": "Zufallsbegegnungen im Eberwald",
+											"colLabels": [
+												"d12",
+												"Begegnung"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1-10",
+													"—"
+												],
+												[
+													"11",
+													"—"
+												],
+												[
+													"12",
+													"Ein wildes Wildschwein kommt neugierig näher (kein Kampf)"
+												]
+											]
+										},
+										"Du könntest den Spielern hier natürlich etwas Feindseliges vorsetzen, aber das Ziel ist, sie möglichst zügig zum Grab zu bringen. Würfeln macht trotzdem Spaß, und es sagt den Spielern, dass hier etwas passieren {@i könnte}.",
+										"Abgesehen vom neugierigen Wildschwein, das vielleicht am Lager vorbeischnüffelt, verläuft die Nacht also ereignislos.",
+										"Ein oder zwei Stunden nachdem die Abenteurer den Wald hinter sich gelassen haben, sehen sie ihr Ziel in der Ferne.",
+										{
+											"type": "insetReadaloud",
+											"id": "ddg-vorlesen-huegel",
+											"entries": [
+												"Als ihr durch den Waldrand brecht, seht ihr für einen Moment eine kleine Gestalt, die sich auf der Hügelkuppe vor euch bewegt."
+											]
+										},
+										"Die Gruppe hat eine Goblinpatrouille entdeckt.",
+										"Zeit, noch einmal zu fragen: {@i „Was tut ihr?\"}"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Zufallsbegegnungen",
+									"id": "ddg-kasten-zufallsbegegnungen",
+									"entries": [
+										"Die Welt von Dungeons & Dragons steckt voller Monster und Schurken!",
+										"Sobald ein Abenteurer die geordneten Lande der Zivilisation verlässt, riskiert er, von Wesen mit üblen Absichten überfallen zu werden.",
+										"Immer wenn die Spieler außerhalb zivilisierter Gebiete rasten wollen, kannst du eine Tabelle mit Zufallsbegegnungen nutzen, um sie in Atem zu halten.",
+										"Wenn die Spieler das Gefühl haben, jederzeit rasten zu können, sobald sie verwundet sind oder kaum noch Zauberplätze haben, dann werden sie genau das tun.",
+										"Dieses Verhalten bringt alles zum Erliegen, und eine deiner Hauptaufgaben als Spielleitung ist es, das Spiel in Bewegung zu halten!"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Teil 3: Raus aus dem Wald",
+							"id": "ddg-teil-3",
+							"entries": [
+								"Die Abenteurer haben die Goblins durch den Wald verfolgt und ihren Unterschlupf gefunden. Er entpuppt sich als uralte Ruine, ein altes Bauwerk, das die Goblins erst vor Kurzem in Besitz genommen haben.",
+								{
+									"type": "entries",
+									"name": "Die Goblinpatrouille",
+									"id": "ddg-patrouille",
+									"entries": [
+										"Kurz hinter dem Eberwald öffnet sich eine Lichtung vor niedrigen, weitläufigen Hügeln. In der Ferne ist das Mauerwerk des Grabes zwischen vereinzelten Bäumen und sanften Hügeln gerade eben zu erkennen.",
+										"Wer die Hügelkuppe beobachtet, bevor die Gruppe näher herangeht, entdeckt {@b zwei {@creature goblin|mm|Goblins}} auf Patrouille.",
+										"Das ist ein guter Zeitpunkt, um zu klären, ob sich die Spielercharaktere beim Näherkommen anschleichen.",
+										"Stell deinen Spielern ruhig eine Suggestivfrage wie {@i „Versucht ihr, ungesehen zu bleiben?\"}, worauf sie fast immer mit {@i „Ja!\"} antworten. Solche Erinnerungen an Vorsicht stärken die Glaubwürdigkeit der Spielwelt.",
+										"Wird einer der Abenteurer entdeckt, legen die Goblins ihre Bogen an und sind zu Beginn des Kampfes nicht überrascht.",
+										"Prüfe ab der zweiten Runde bei jedem Zug eines Goblins, ob er Schaden genommen hat. Hat er Schaden erlitten oder wurde sein Kumpan erschlagen, zieht sich der Goblin zurück, um seine Brüder im Grab zu warnen.",
+										"Bis der Goblin entweder tot oder im Inneren ist, nutzt er seine Bewegung zum Rückzug und seine Aktion, um Pfeile auf die Abenteurer zu schießen.",
+										"Überlebt die Patrouille lange genug, kannst du den Goblin eine Warnung zu den Wachen am Eingang des Grabes rufen lassen. Passiert das, sind die Spielercharaktere nah genug, um zu sehen, wie die Wachen ihre Posten verlassen und sich ins Grab zurückziehen. Sie sind unterwegs, um die anderen vor der drohenden Gefahr zu warnen."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Überraschung bestimmen",
+									"id": "ddg-kasten-ueberraschung",
+									"entries": [
+										"Bevor du eine Kampfbegegnung beginnst, musst du zuerst bestimmen, wer überrascht ist, falls überhaupt jemand.",
+										"Hat sich jemand vor der Begegnung angeschlichen, lass ihn eine Probe auf Geschicklichkeit ({@skill Stealth|phb|Heimlichkeit}) gegen die passive {@skill Perception|phb|Wahrnehmung} (10 + Weisheitsmodifikator) jeder Kreatur der Gegenseite würfeln.",
+										"Eine Kreatur, die aktiv nach einer anderen sucht, würfelt eine Probe auf Weisheit ({@skill Perception|phb|Wahrnehmung}) gegen die Geschicklichkeit ({@skill Stealth|phb|Heimlichkeit}) der anderen Kreatur.",
+										"Versucht keine Seite, sich anzuschleichen, bemerken sich beide gleichzeitig.",
+										"Eine überraschte Kreatur kann in ihrem ersten Zug weder eine Aktion ausführen noch sich bewegen. Eine Reaktion kann sie erst nutzen, wenn ihr erster Zug beendet ist.",
+										"Alle Einzelheiten zum Kampf findest du in Kapitel 9 des Spielerhandbuchs!"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Teil 4: Das Delische Grab",
+							"id": "ddg-teil-4",
+							"entries": [
+								"Vor langer Zeit, als das Kaelische Reich herrschte, gründete ein Ritter namens Delius den Delischen Orden, und gemeinsam widmeten sie ihr Leben dem Kampf gegen Maglubiyet. Dies ist ihre Ruhestätte, längst vergessen.",
+								"Heute bereiten die Goblins, die das Grab besetzt haben, ein Menschenopfer vor, mit dem sie die Stätte schänden wollen. Ihr Ziel ist es, das Grab im Namen Maglubiyets zu weihen.",
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DelianTomb/map-delian-tomb.webp"
+									},
+									"title": "Karte des Delischen Grabes",
+									"credit": "Karte: Kyle Capps",
+									"width": 1611,
+									"height": 865
+								},
+								{
+									"type": "entries",
+									"name": "1. Eingang",
+									"id": "ddg-raum-1",
+									"entries": [
+										"{@b Zwei {@creature goblin|mm|Goblins}} stehen vor den zerborstenen Steintüren des Grabes Wache. (Es sei denn natürlich, die Patrouille hat sie gewarnt!)",
+										"Wenn sich die Spielercharaktere den Wachen nähern, frag sie noch einmal, ob sie versuchen, sich anzuschleichen. Falls ja, bitte sie um eine Probe auf {@skill Stealth|phb|Heimlichkeit} gegen die passive {@skill Perception|phb|Wahrnehmung} der Goblinwachen.",
+										"Die Spielercharaktere können sich auch einfach die Dunkelheit zunutze machen, um sich an die ahnungslosen Wachen heranzuschleichen, und sich so mühelos eine Überraschungsrunde sichern, wenn sie den Kampf eröffnen.",
+										"In ihrem ersten Zug im Kampf versuchen beide Goblins, sich ins Innere zurückzuziehen. Die Anwesenheit der Abenteurer sagt ihnen, dass die Patrouille getötet wurde, und sie haben nicht vor, hier auf dasselbe Schicksal zu warten!"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "2. Opferraum",
+									"id": "ddg-raum-2",
+									"entries": [
+										"Nachdem die Abenteurer die Goblinwachen erledigt haben, steigen sie in das Grab selbst hinab. Denk daran, das Grab mit so vielen Sinneseindrücken zu beschreiben, wie es dir sinnvoll erscheint.",
+										{
+											"type": "insetReadaloud",
+											"id": "ddg-vorlesen-abstieg",
+											"entries": [
+												"Es ist sehr dunkel, während ihr die Stufen hinab und in das Grab hineingeht, und die modrige Luft wird mit jeder Stufe kälter. Von tief im Inneren des Bauwerks hallt ein leises, gleichmäßiges Gemurmel herauf."
+											]
+										},
+										"Die Goblins haben ihr Ritual begonnen, das ferne Gemurmel sind die Gesänge eines Goblin-Schamanen.",
+										"Am Fuß der Treppe erhellt ein schwaches Licht einen großen Raum voller schimmeliger Schlafrollen und Goblins!",
+										"Die Anzahl der {@creature goblin|mm|Goblins} in diesem Raum sollte {@b der Anzahl der Spielercharaktere plus eins} entsprechen. Falls die Spieler an der Goblinpatrouille vorbeigeschlichen sind, ohne sie jemals zu alarmieren, stoßen auch diese beiden nach der ersten Kampfrunde dazu.",
+										"Haben die Spieler sowohl die Patrouille als auch die Wachen ausgeschaltet, ohne dass sich jemand ins Grab zurückziehen und die anderen warnen konnte, können sie diese Goblins überraschen.",
+										"Sind die Goblins dagegen gewarnt, rechne damit, dass die Spieler um die Ecke denken. Vielleicht wollen sie sich nicht in einen Goblinbau wagen und versuchen stattdessen, die Goblins herauszulocken. Sei auf alles gefasst. Lass die Spieler experimentieren, ermutige sie sogar dazu!",
+										"Sobald die Goblins erledigt sind, nimm dir einen Moment, um den Raum zu beschreiben.",
+										{
+											"type": "insetReadaloud",
+											"id": "ddg-vorlesen-opferraum",
+											"entries": [
+												"Das Kohlebecken in der Mitte des Raumes wirft ein sanftes Licht auf die Wände. Auf der einen Seite zeigt ein fein gearbeitetes Relief eine Schar Ritter, die eine Flut von Monstern zurückschlägt, vielleicht sogar Goblins!",
+												"Auf der anderen Wand steht eine Inschrift: „Ich schwöre, das Chaos in all seinen Formen zu bekämpfen und die Ordnung zu wahren, bei der Ehre meines Wortes.\""
+											]
+										},
+										"Der nächste Raum liegt hinter einem gewundenen Gang, der jenseits des Lichts vom Kohlebecken in der Dunkelheit verschwindet. Auf halber Strecke, kurz vor der Biegung, liegt eine {@b Druckplattenfalle}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "3. Die Druckplattenfalle",
+									"id": "ddg-raum-3",
+									"entries": [
+										"Wem eine Probe auf Weisheit ({@skill Perception|phb|Wahrnehmung}) gegen {@dc 12} gelingt, der bemerkt die Falle, weil das schwache Licht des Kohlebeckens gerade eben das leicht erhöhte Stück Boden erfasst. Gelingt einem Charakter danach eine Probe auf Geschicklichkeit gegen {@dc 10} mit {@item thieves' tools|phb|Diebeswerkzeug}, kann er die Falle entschärfen, ohne sie auszulösen.",
+										"Das lässt sich auch mit jeder Klingenwaffe versuchen, die Probe wird dann allerdings mit Nachteil gewürfelt.",
+										"Außerdem gilt: Spielercharaktere der Größe Klein (Halblinge, Gnome) lösen die Falle nicht aus.",
+										"Jede andere Kreatur, die auf die Druckplatte tritt, löst die Falle aus, und eine Sense fährt von der Decke herab. Dem Charakter, der die Falle ausgelöst hat, muss ein Rettungswurf auf Geschicklichkeit gegen {@dc 15} gelingen, sonst erleidet er {@damage 1d8} Hiebschaden.",
+										"Ist die Falle einmal entschärft oder ausgelöst worden, ist sie verbraucht und löst nicht erneut aus."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "4. Halle des Eidwahrers",
+									"id": "ddg-raum-4",
+									"entries": [
+										{
+											"type": "insetReadaloud",
+											"id": "ddg-vorlesen-halle",
+											"entries": [
+												"Der Raum wird von einer gewaltigen Steinstatue eines Ritters beherrscht, die auf einem Podest steht, hoch aufgerichtet, das Schwert mit der Spitze nach unten zwischen den Füßen.",
+												"Dichter Dunst quillt von einem behelfsmäßigen Altar in der Mitte des Raumes auf, an dem ein mit Schmuck und Kriegsbemalung geschmückter Goblin gleichmäßig singt und dabei vor und zurück wiegt.",
+												"Hinter dem Goblin wimmert leise ein junges Mädchen, das Gesicht in den Händen, in einem kleinen Käfig am Fuß der Statue."
+											]
+										},
+										"Was einst die heilige Kammer war, die der Delische Orden im Namen von Lord Delius geweiht hat, ist von den Goblins geschändet worden.",
+										"Neben dem {@creature Goblin-Schamane|DelianTomb|Goblin-Schamanen} lebt hier auch der Anführer dieser Bande, ein {@creature bugbear|mm|Grottenschrat}.",
+										{
+											"type": "image",
+											"href": {
+												"type": "internal",
+												"path": "adventure/DelianTomb/goblin-schamane.webp"
+											},
+											"width": 891,
+											"height": 910,
+											"maxWidth": 360,
+											"title": "Der Goblin-Schamane, der das Ritual in der Halle des Eidwahrers leitet"
+										},
+										"Hier treffen die Spieler zum ersten Mal auf einen cleveren Gegner: Der Grottenschrat wird nicht wie seine Goblin-Speichellecker von Furcht getrieben. Er kämpft taktisch, und vielleicht hat er sogar einen {@item potion of healing|dmg|Trank der Heilung}!",
+										"Sobald die Monster erschlagen sind und Bess aus dem Käfig befreit wurde, werden die Spieler den Raum vermutlich durchsuchen wollen.",
+										"Der behelfsmäßige Altar ist mit Holzkohle, Kork, Schwefel und anderen Zauberkomponenten bedeckt. Zwischen diesen Utensilien liegen zwei {@item potion of healing|dmg|Tränke der Heilung}.",
+										"Nahe dem Käfig, in dem Bess festgehalten wurde, liegt ein großes Nest aus Decken, in dem der Grottenschrat geschlafen hat. Darin finden sich einige Dutzend Goldmünzen und Edelsteine im Wert von {@dice 2d20 + 10} GM.",
+										"Am Sockel der Delius-Statue steht eine Inschrift:",
+										{
+											"type": "insetReadaloud",
+											"id": "ddg-vorlesen-statue",
+											"entries": [
+												"Willst du dies behalten, musst du es mir zuerst geben."
+											]
+										},
+										"Sagt ein Charakter „Ich gebe dir mein Wort\", oder irgendetwas, das in dieselbe Richtung geht, öffnet sich die Geheimtür zur Grabkammer!"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "5. Grabkammer des Delischen Ordens",
+									"id": "ddg-raum-5",
+									"entries": [
+										"Die eigentliche Ruhestätte des Delischen Ordens, verborgen hinter der Halle des Eidwahrers. Drinnen stehen sechs Sarkophage, die die Züge der Ritter tragen, die in ihnen liegen, dazu in der Mitte ein deutlich größerer, aufwendiger gearbeiteter Sarkophag mit den Zügen von Lord Delius.",
+										"In jeden Sarkophag ist am Fußende der Name seines Bewohners eingemeißelt. Auf Delius' Sarkophag liegt ein größtenteils vermodertes Tagebuch.",
+										"Es ist in der Gemeinsprache verfasst, und was sich noch lesen lässt, erzählt von der Entstehung des Delischen Ordens und seiner Bestimmung.",
+										"Überall in der Grabkammer liegen außerdem mehrere {@item potion of healing|dmg|Tränke der Heilung} verstreut, die vor langer Zeit als Opfergaben für den Orden hier abgelegt wurden.",
+										"Versucht ein Charakter, einen Sarkophag zu öffnen, stört er die Geister des Delischen Ordens. Rechtschaffene {@creature skeleton|mm|Skelette} erheben sich aus den Sarkophagen, begierig darauf, die Schänder aus ihrem Grab zu vertreiben.",
+										"Die einzige Ausnahme: Ist der Charakter, der einen Sarkophag öffnet, ein Paladin, der den Delischen Eid geschworen hat, so ist er ein Mitglied des Delischen Ordens. Die Schätze stehen ihm mit heiligem Recht zu!",
+										"In jedem Sarkophag liegen ein {@item chain mail|phb|Kettenpanzer} und ein {@item longsword|phb|Langschwert} sowie ein {@item shield|phb|Schild} mit dem Wappen des Delischen Ordens.",
+										"In Delius' Sarkophag liegen ein {@item chain mail|phb|Kettenpanzer} und ein {@item shield|phb|Schild} mit dem delischen Wappen sowie das {@item Goblinschlächter-Langschwert|DelianTomb}.",
+										"Das Goblinschlächter-Langschwert hat dieselben Eigenschaften wie ein gewöhnliches Langschwert, verursacht gegen Goblinoide (Goblins, Hobgoblins und Grottenschrate) aber {@damage 1d6} zusätzlichen Schaden.",
+										{
+											"type": "inset",
+											"name": "Herr über den Dungeon",
+											"id": "ddg-kasten-herr",
+											"entries": [
+												"Denk daran, dass die Welt, die deine Spieler erkunden, letztlich von dir gestaltet wird. Wenn dir etwas zu leicht oder zu schwer erscheint, kannst du Gegner hinzufügen, weglassen oder anpassen, bis sie zu dem Ton und dem Tempo passen, die du erreichen willst.",
+												"Vielleicht hatte die Gruppe Glück oder war clever und betritt den letzten Raum mit reichlich Trefferpunkten und Zauberplätzen, dann wirf noch einen Goblin-Handlanger in die Halle des Eidwahrers!",
+												"Vielleicht hatte sie es aber auch schwer, dann ist es völlig in Ordnung, wenn du vorschlägst, in einem der bereits geräumten Räume eine kurze Rast einzulegen."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Anhang: Monster und Schätze",
+					"id": "ddg-anhang",
+					"entries": [
+						{
+							"type": "section",
+							"name": "Monster",
+							"id": "ddg-anhang-monster",
+							"entries": [
+								"Hier stehen die Monster, die im Abenteuer auftreten. Bis auf den Goblin-Schamanen sind es Standardmonster aus dem Monsterhandbuch, deren Werte in der Datenbank dieser Seite auf Englisch angezeigt werden.",
+								{
+									"type": "statblock",
+									"tag": "creature",
+									"name": "goblin",
+									"source": "MM"
+								},
+								{
+									"type": "statblock",
+									"tag": "creature",
+									"name": "Goblin-Schamane",
+									"source": "DelianTomb"
+								},
+								{
+									"type": "statblock",
+									"tag": "creature",
+									"name": "bugbear",
+									"source": "MM"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "adventure/DelianTomb/grottenschrat.webp"
+									},
+									"title": "Der Grottenschrat, Anführer der Goblinbande",
+									"width": 309,
+									"height": 332
+								},
+								{
+									"type": "statblock",
+									"tag": "creature",
+									"name": "skeleton",
+									"source": "MM"
+								},
+								{
+									"type": "inset",
+									"name": "Dunkelsicht",
+									"id": "ddg-kasten-dunkelsicht",
+									"entries": [
+										"Viele Kreaturen in den Welten von D&D verfügen über Dunkelsicht, besonders jene, die unter der Erde leben.",
+										"Innerhalb einer angegebenen Reichweite sieht eine Kreatur mit Dunkelsicht in Dunkelheit so, als wäre diese Dämmerlicht. Bereiche völliger Dunkelheit gelten für sie also nur als leicht verdeckt.",
+										"Farben kann die Kreatur in der Dunkelheit allerdings nicht unterscheiden, sondern nur Grautöne."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Magische Gegenstände und andere Schätze",
+							"id": "ddg-anhang-schaetze",
+							"entries": [
+								"Hier stehen die Gegenstände, die im Abenteuer auftauchen.",
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "longsword",
+									"source": "PHB"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "chain mail",
+									"source": "PHB"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "shield",
+									"source": "PHB"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "potion of healing",
+									"source": "DMG"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Goblinschlächter-Langschwert",
+									"source": "DelianTomb"
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Mitwirkende",
+							"id": "ddg-mitwirkende",
+							"entries": [
+								"Dieses Abenteuer entstand aus der YouTube-Reihe {@i Running the Game} von {@b Matt Colville} und ist als Ergänzung dazu gedacht. Es lohnt sich, die Folgen anzusehen, bevor man es liest und leitet.",
+								"Besonderer Dank an {@b Kyle Capps} für die Karte des Delischen Grabes.",
+								"Die englische Vorlage wurde mit GM Binder gesetzt. Diese deutsche Fassung ist eine inoffizielle Fanübersetzung."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Goblin-Schamane",
+			"source": "DelianTomb",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"Dunkelsicht 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Gemeinsprache",
+				"Goblinisch"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Zauberwirken",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Der Goblin-Schamane ist ein Zauberwirker der 1. Stufe. Sein Zauberattribut ist Weisheit (Rettungswurf-SG 11, {@hit 3} auf Angriffswürfe mit Zaubern). Er hat die folgenden Zauber zur Verfügung:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell light|phb|Licht}",
+								"{@spell mending|phb|Ausbessern}",
+								"{@spell sacred flame|phb|Heilige Flamme}"
+							]
+						},
+						"1": {
+							"slots": 2,
+							"spells": [
+								"{@spell healing word|phb|Heilendes Wort}",
+								"{@spell shield of faith|phb|Schild des Glaubens}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"action": [
+				{
+					"name": "Dolch",
+					"entries": [
+						"{@atk mw} {@hit 4} auf den Angriff, ein Ziel. {@h}5 Hiebschaden."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Der Schamane führt die Goblinbande an, die das Delische Grab besetzt hat, und leitet in der Halle des Eidwahrers das Ritual, mit dem die Grabstätte im Namen Maglubiyets geschändet werden soll."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "adventure/DelianTomb/goblin-schamane.webp"
+						},
+						"width": 891,
+						"height": 910,
+						"title": "Goblin-Schamane"
+					}
+				]
+			}
+		}
+	],
+	"item": [
+		{
+			"name": "Goblinschlächter-Langschwert",
+			"source": "DelianTomb",
+			"baseItem": "longsword|phb",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"entries": [
+				"Dies ist die Waffe von Lord Delius, dem Gründer des Delischen Ordens. Sie ist mit einem rechtschaffenen Feuer gesegnet, das im Fleisch der Kinder Maglubiyets brennt.",
+				"Triffst du mit dieser Waffe einen Goblinoiden (Goblins, Hobgoblins und Grottenschrate), verursacht sie zusätzlich {@damage 1d6} Hiebschaden."
+			]
+		}
+	]
+}
